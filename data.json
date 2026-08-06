@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 16:34:23",
+  "generated": "2026-08-06 16:42:46",
   "weeks": [
     {
       "version": "14inch",
@@ -53,7 +53,7 @@
       "mcu_large": "",
       "mcu_small": "",
       "mcu": "12.27",
-      "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030",
+      "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030",
       "sections": {
         "specChange": [
           {
@@ -88,7 +88,7 @@
       "mcu_large": "",
       "mcu_small": "",
       "mcu": "12.27",
-      "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030",
+      "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030",
       "sections": {
         "specChange": [
           {
