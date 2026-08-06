@@ -22,10 +22,13 @@
   .srch-hint{font-size:13px;color:var(--muted);white-space:nowrap}
   .search-results{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:16px}
   .search-results h4{margin:0 0 12px;font-size:15px}
-  .sr-item{display:flex;gap:14px;padding:10px 6px;border-bottom:1px dashed var(--line)}
+  .sr-item{display:flex;gap:14px;padding:10px 6px;border-bottom:1px dashed var(--line);align-items:flex-start}
   .sr-item:last-child{border-bottom:none}
   .sr-desc{flex:1}
+  .sr-desc .t{font-size:13px;color:var(--text)}
   .sr-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:5px;font-size:12px;color:var(--muted)}
+  .sr-meta b{color:#374151;font-weight:600}
+  .sr-tag{font-size:11px;border-radius:999px;padding:1px 9px;background:#eef2ff;color:#2563eb;white-space:nowrap}
   .tabs{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding:4px;background:#eef1f7;border-radius:12px;width:100%}
   .tab{padding:10px 30px;border-radius:9px;cursor:pointer;font-weight:600;font-size:16px;border:1px solid transparent;color:#7a828e;user-select:none}
   .tab.tab-blue.selected{background:#2563eb;color:#fff}
@@ -113,7 +116,7 @@
 
 <script>
   // 由发布脚本注入：对外数据 + 访问密码
-  window.EXT_DATA = {"generated": "2026-08-06 16:16:26", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
+  window.EXT_DATA = {"generated": "2026-08-06 16:19:43", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
   // 由发布脚本注入：对外数据 + 访问密码
   window.EXT_PASS = "kengteesud";
 
@@ -271,7 +274,12 @@
       SECTION_LABELS.forEach(function(sec){
         (((w.sections||{})[sec.key])||[]).forEach(function(it){
           if((it.desc||"").toLowerCase().indexOf(kw) >= 0){
-            found.push({ver:(w.version||""), date:(w.date||""), sec:sec.label, text:it.desc});
+            // 收集：版本号/日期/Amigo/SOC/MCU（结构对齐内网搜索结果的 sr-tag + sr-meta)
+            var mcu = "";
+            if(w.version === "14inch"){ var a=[w.mcu_large,w.mcu_small].filter(Boolean).join(" / "); mcu = a || ""; }
+            else { mcu = w.mcu || ""; }
+            found.push({ver:(w.version||""), date:(w.date||""), amigo:(w.amigo||""),
+                        soc:(w.soc||""), mcu:mcu, sec:sec.label, text:it.desc});
           }
         });
       });
@@ -282,8 +290,14 @@
     if(!found.length){ html += '<div class="empty-note">No matching content.</div>'; }
     else {
       found.forEach(function(r){
-        html += '<div class="sr-item"><div class="sr-desc"><div>'+esc(r.text)+'</div>'
-              + '<div class="sr-meta"><span>'+esc(r.ver)+'</span><span>'+esc(r.date)+'</span><span>'+esc(r.sec)+'</span></div></div></div>';
+        html += '<div class="sr-item"><span class="sr-tag">'+esc(r.ver)+'</span>'
+              + '<div class="sr-desc"><div class="t">'+esc(r.text)+'</div>'
+              + '<div class="sr-meta"><span>Date <b>'+esc(r.date||"—")+'</b></span>'
+              + '<span>｜ Amigo <b>'+esc(r.amigo||"—")+'</b></span>'
+              + '<span>｜ SOC <b>'+esc(r.soc||"—")+'</b></span>'
+              + '<span>｜ MCU <b>'+esc(r.mcu||"—")+'</b></span>'
+              + '<span>｜ '+esc(r.sec)+'</span></div>'
+              + '</div></div>';
       });
     }
     res.innerHTML = html;
