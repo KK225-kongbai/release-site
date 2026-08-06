@@ -37,6 +37,8 @@
   .meta-field label{display:block;font-size:14px;color:var(--text);margin-bottom:4px;font-weight:600}
   .meta-field .val{font-size:15px;color:#374151;padding:4px 0}
   .section-head{display:flex;align-items:center;gap:10px;padding:2px 0 10px;border-bottom:1px solid var(--line);margin-bottom:12px}
+  .week-block{margin-bottom:26px}
+  .week-date{font-size:17px;color:var(--brand);margin:0 0 8px;border-bottom:2px solid var(--line);padding-bottom:6px}
   .section-head h3{margin:0;font-size:16px}
   .badge{background:#eef2ff;color:var(--brand);border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700}
   .item{font-size:15px;line-height:1.7;padding:10px 2px;border-bottom:1px dashed var(--line);white-space:pre-wrap;word-break:break-word}
@@ -74,9 +76,11 @@
 
   <div class="wrap">
     <div class="searchbar">
-      <input id="searchInput" type="text" placeholder="Input JIRA ticket or Content" oninput="onSearch()">
+      <input id="searchInput" type="text" placeholder="Input search JIRA ticket or Content" oninput="onSearch()">
       <span class="srch-hint" id="srchHint"></span>
     </div>
+
+    <div id="searchResults" class="search-results" style="display:none"></div>
 
     <div class="tabs">
       <div class="tab tab-blue selected" data-v="14inch" onclick="setVersion('14inch')">14inch</div>
@@ -85,7 +89,6 @@
 
     <div class="weekday"><h2>Release Note <span class="hint" id="weekHint"></span></h2></div>
 
-    <div id="searchResults" class="search-results" style="display:none"></div>
     <div id="content"></div>
 
     <div class="footer"><span class="note-bold">สำหรับ PASAP เท่านั้น, โปรดอย่าส่งต่อ</span></div>
@@ -94,9 +97,9 @@
 
 <script>
   // 由发布脚本注入：对外数据 + 访问密码
-  window.EXT_DATA = {"generated": "2026-08-06 15:29:16", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
+  window.EXT_DATA = {"generated": "2026-08-06 15:49:46", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
   // 由发布脚本注入：对外数据 + 访问密码
-  window.EXT_PASS = "PASAP123";
+  window.EXT_PASS = "kengteesud";
 
   var cur = { version: "14inch" };
   var locked_ = null;
@@ -125,10 +128,9 @@
     {key:"others", label:"Others"}
   ];
 
-  function versionWeek(){
+  function versionWeeks(){
     var arr = (EXT_DATA && EXT_DATA.weeks) ? EXT_DATA.weeks : [];
-    for(var i=0;i<arr.length;i++) if(arr[i].version === cur.version) return arr[i];
-    return null;
+    return arr.filter(function(w){ return w.version === cur.version; });
   }
 
   function renderAll(){ renderTabs(); renderSections(); renderHint(); }
@@ -144,44 +146,50 @@
   }
 
   function renderHint(){
-    var w = versionWeek();
-    $("weekHint").textContent = w && w.date ? ("Date: " + w.date) : "";
+    var arr = versionWeeks();
+    $("weekHint").textContent = " - " + arr.length + " week(s)";
   }
 
   function renderSections(){
     var box = $("content");
-    var w = versionWeek();
+    var weeks = versionWeeks();
     var html = "";
-    if(!w){
+    if(!weeks.length){
       box.innerHTML = '<div class="card"><div class="empty-note">No data.</div></div>';
       return;
     }
-    // 元数据卡
     var spec = (cur.version==="14inch") ? ["date","soc","mcu_large","mcu_small","amigo"] : ["date","soc","mcu","amigo"];
-    var labels = {date:"Date",soc:"SOC Ver.","mcu_large":"Main MCU","mcu_small":"Sub MCU",mcu:"MCU Ver.",amigo:"Amigo Ver."};
-    html += '<div class="card"><div class="meta-grid">';
-    spec.forEach(function(k){
-      var v = w[k] || "";
-      html += '<div class="meta-field"><label>'+esc(labels[k])+'</label><div class="val">'+esc(v).replace(/\n/g,"<br>")+'</div></div>';
-    });
-    html += '</div></div>';
-    // 各段
-    SECTION_LABELS.forEach(function(sec){
-      var arr = (w.sections||{})[sec.key] || [];
-      html += '<div class="card"><div class="section-head"><h3>'+esc(sec.label)+'</h3><span class="badge">'+arr.length+' items</span></div>';
-      if(!arr.length){ html += '<div class="empty-note">No items.</div>'; }
-      else {
-        arr.forEach(function(it, i){
-          var desc = (it && it.desc) || "";
-          html += '<div class="item">'+(i+1)+'. '+esc(desc)+'</div>';
-        });
-      }
+    weeks.forEach(function(w){
+      // 每个周一个独立卡片，先显示日期 + 元数据
+      html += '<div class="week-block"><h3 class="week-date">'+esc(w.date || "—")+'</h3>';
+      html += '<div class="card"><div class="meta-grid">';
+      spec.forEach(function(k){
+        var v = w[k] || "";
+        html += '<div class="meta-field"><label>'+esc(labels0(k))+'</label><div class="val">'+esc(v).replace(/\n/g,"<br>")+'</div></div>';
+      });
+      html += '</div></div>';
+      // 各段
+      SECTION_LABELS.forEach(function(sec){
+        var arr = (w.sections||{})[sec.key] || [];
+        html += '<div class="card"><div class="section-head"><h3>'+esc(sec.label)+'</h3><span class="badge">'+arr.length+' items</span></div>';
+        if(!arr.length){ html += '<div class="empty-note">No items.</div>'; }
+        else {
+          arr.forEach(function(it, i){
+            var desc = (it && it.desc) || "";
+            html += '<div class="item">'+(i+1)+'. '+esc(desc)+'</div>';
+          });
+        }
+        html += '</div>';
+      });
       html += '</div>';
     });
     box.innerHTML = html;
   }
+  function labels0(k){
+    return {date:"Date",soc:"SOC Ver.","mcu_large":"Main MCU","mcu_small":"Sub MCU",mcu:"MCU Ver.",amigo:"Amigo Ver."}[k] || k;
+  }
 
-  // 本地搜索（当前版本内，搜 desc）
+  // 本地搜索（跨所有版本/周，搜 desc），结果含版本号与日期
   function onSearch(){
     var kw = ($("searchInput").value||"").trim().toLowerCase();
     var hint = $("srchHint");
@@ -191,18 +199,18 @@
       hint.textContent = "";
       return;
     }
-    var w = versionWeek();
+    var arr = (EXT_DATA && EXT_DATA.weeks) ? EXT_DATA.weeks : [];
     var found = [];
-    if(w){
+    arr.forEach(function(w){
       SECTION_LABELS.forEach(function(sec){
-        (w.sections||{})[sec.key] = (w.sections||{})[sec.key]||[];
-        (w.sections||{})[sec.key].forEach(function(it){
+        (((w.sections||{})[sec.key])||[]).forEach(function(it){
           if((it.desc||"").toLowerCase().indexOf(kw) >= 0){
-            found.push({sec:sec.label, text:it.desc});
+            // 版本标签：14inch / 12inch
+            found.push({ver:(w.version || ""), date:(w.date || ""), sec:sec.label, text:it.desc});
           }
         });
       });
-    }
+    });
     hint.textContent = "Found " + found.length + " result(s)";
     res.style.display = "block";
     var html = '<h4>Search results (' + found.length + ' items)</h4>';
@@ -210,7 +218,7 @@
     else {
       found.forEach(function(r){
         html += '<div class="sr-item"><div class="sr-desc"><div>'+esc(r.text)+'</div>'
-              + '<div class="sr-meta"><span>'+esc(r.sec)+'</span></div></div></div>';
+              + '<div class="sr-meta"><span>'+esc(r.ver)+'</span><span>'+esc(r.date)+'</span><span>'+esc(r.sec)+'</span></div></div></div>';
       });
     }
     res.innerHTML = html;
