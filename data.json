@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 20:15:00",
+  "generated": "2026-08-06 21:12:33",
   "weeks": [
     {
       "version": "14inch",
@@ -815,14 +815,14 @@
     {
       "version": "14inch",
       "date": "2025-04-29",
-      "soc": "0.03",
-      "mcu_large": "43",
-      "mcu_small": "43",
+      "soc": "0.030000",
+      "mcu_large": "43.00",
+      "mcu_small": "43.00",
       "mcu": "",
       "amigo": "PG80220401 DATA80220040",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "update.key",
+      "upgrade": "ROM",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -864,7 +864,7 @@
     {
       "version": "14inch",
       "date": "2025-05-09",
-      "soc": "0.0301",
+      "soc": "0.030100",
       "mcu_large": "42.07",
       "mcu_small": "42.07",
       "mcu": "",
@@ -928,9 +928,9 @@
     {
       "version": "14inch",
       "date": "2025-05-12",
-      "soc": "0.03016",
-      "mcu_large": "43.1",
-      "mcu_small": "43.1",
+      "soc": "0.030160",
+      "mcu_large": "43.10",
+      "mcu_small": "43.10",
       "mcu": "",
       "amigo": "-",
       "amigo_p1p6": "",
@@ -964,7 +964,7 @@
     {
       "version": "14inch",
       "date": "2025-05-16",
-      "soc": "0.0302",
+      "soc": "0.030200",
       "mcu_large": "42.14",
       "mcu_small": "42.14",
       "mcu": "",
@@ -1107,7 +1107,7 @@
       "amigo": "PG80220401 DATA80220040",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "develop&kwi",
       "sections": {
         "specChange": [
           {
@@ -1163,7 +1163,7 @@
     {
       "version": "14inch",
       "date": "2025-05-29",
-      "soc": "0.0304",
+      "soc": "0.030400",
       "mcu_large": "42.28",
       "mcu_small": "42.28",
       "mcu": "",
@@ -1237,7 +1237,7 @@
     {
       "version": "14inch",
       "date": "2025-06-05",
-      "soc": "0.0305",
+      "soc": "0.030500",
       "mcu_large": "42.35",
       "mcu_small": "42.35",
       "mcu": "",
@@ -1309,7 +1309,7 @@
     {
       "version": "14inch",
       "date": "2025-06-12",
-      "soc": "0.0306",
+      "soc": "0.030600",
       "mcu_large": "42.42",
       "mcu_small": "42.42",
       "mcu": "",
@@ -1369,7 +1369,7 @@
     {
       "version": "14inch",
       "date": "2025-06-19",
-      "soc": "0.0307",
+      "soc": "0.030700",
       "mcu_large": "42.49",
       "mcu_small": "42.49",
       "mcu": "",
@@ -1427,9 +1427,9 @@
     {
       "version": "14inch",
       "date": "2025-06-24",
-      "soc": "0.03076",
-      "mcu_large": "43.4",
-      "mcu_small": "43.4",
+      "soc": "0.030760",
+      "mcu_large": "43.40",
+      "mcu_small": "43.40",
       "mcu": "",
       "amigo": "PG80220401 DATA80220040",
       "amigo_p1p6": "",
@@ -1464,7 +1464,7 @@
     {
       "version": "14inch",
       "date": "2025-06-26",
-      "soc": "0.0308",
+      "soc": "0.030800",
       "mcu_large": "42.56",
       "mcu_small": "42.56",
       "mcu": "",
@@ -1530,14 +1530,14 @@
     {
       "version": "14inch",
       "date": "2025-07-03",
-      "soc": "0.0309",
+      "soc": "0.030900",
       "mcu_large": "43.45",
       "mcu_small": "43.45",
       "mcu": "",
       "amigo": "PG802204F1 DATA8022004F",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "develop&kwi",
       "sections": {
         "specChange": [
           {
@@ -1581,7 +1581,7 @@
     {
       "version": "14inch",
       "date": "2025-07-10",
-      "soc": "0.031",
+      "soc": "0.031000",
       "mcu_large": "43.52",
       "mcu_small": "43.52",
       "mcu": "",
@@ -1675,7 +1675,7 @@
     {
       "version": "14inch",
       "date": "2025-07-17",
-      "soc": "0.0311",
+      "soc": "0.031100",
       "mcu_large": "43.59",
       "mcu_small": "43.59",
       "mcu": "",
@@ -1765,7 +1765,7 @@
     {
       "version": "14inch",
       "date": "2025-07-24",
-      "soc": "0.0312",
+      "soc": "0.031200",
       "mcu_large": "43.66",
       "mcu_small": "43.66",
       "mcu": "",
@@ -1850,7 +1850,7 @@
     {
       "version": "14inch",
       "date": "2025-07-31",
-      "soc": "0.0313",
+      "soc": "0.031300",
       "mcu_large": "43.73",
       "mcu_small": "43.73",
       "mcu": "",
@@ -1931,9 +1931,9 @@
     {
       "version": "14inch",
       "date": "2025-08-07",
-      "soc": "0.0314",
-      "mcu_large": "43.8",
-      "mcu_small": "43.8",
+      "soc": "0.031400",
+      "mcu_large": "43.80",
+      "mcu_small": "43.80",
       "mcu": "",
       "amigo": "PG80220501 DATA80220050",
       "amigo_p1p6": "",
@@ -1997,7 +1997,7 @@
     {
       "version": "14inch",
       "date": "2025-08-14",
-      "soc": "0.0315",
+      "soc": "0.031500",
       "mcu_large": "43.87",
       "mcu_small": "43.87",
       "mcu": "",
@@ -2072,7 +2072,7 @@
     {
       "version": "14inch",
       "date": "2025-08-21",
-      "soc": "0.0316",
+      "soc": "0.031600",
       "mcu_large": "43.94",
       "mcu_small": "43.94",
       "mcu": "",
@@ -2138,9 +2138,9 @@
     {
       "version": "14inch",
       "date": "2025-08-28",
-      "soc": "0.0317",
-      "mcu_large": "44.01",
-      "mcu_small": "44.01",
+      "soc": "0.031700",
+      "mcu_large": "44.010",
+      "mcu_small": "44.010",
       "mcu": "",
       "amigo": "PG80220501 DATA80220050",
       "amigo_p1p6": "",
@@ -2211,7 +2211,7 @@
     {
       "version": "14inch",
       "date": "2025-09-04",
-      "soc": "0.0318",
+      "soc": "0.031800",
       "mcu_large": "44.08",
       "mcu_small": "44.08",
       "mcu": "",
@@ -2296,7 +2296,7 @@
     {
       "version": "14inch",
       "date": "2025-09-18",
-      "soc": "0.032",
+      "soc": "0.032000",
       "mcu_large": "44.22",
       "mcu_small": "44.22",
       "mcu": "",
@@ -2378,7 +2378,7 @@
     {
       "version": "14inch",
       "date": "2025-09-25",
-      "soc": "4.033",
+      "soc": "4.033000",
       "mcu_large": "44.29",
       "mcu_small": "44.29",
       "mcu": "",
@@ -2454,9 +2454,9 @@
     {
       "version": "14inch",
       "date": "2025-10-16",
-      "soc": "14.0333",
-      "mcu_large": "44.5",
-      "mcu_small": "44.5",
+      "soc": "14.033300",
+      "mcu_large": "44.50",
+      "mcu_small": "44.50",
       "mcu": "",
       "amigo": "PG80220601 DATA80220060",
       "amigo_p1p6": "",
@@ -4390,6 +4390,1156 @@
         "iAutoBug": [],
         "jiraBug": [],
         "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2025-09-26",
+      "soc": "12.000100",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Implemented the HW App Note(PARTS-16_TP_application_note_ver0.01_12.9inch_20250922)"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2025-12-04",
+      "soc": "12.000200",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Implemented the HW App Note(PARTS-16_TP_application_note_ver0.01_12.9inch)"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-01-22",
+      "soc": "12.000300",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "SOC-09_Sound_ver0.21"
+          },
+          {
+            "desc": "PARTS-25_BL control_Ver0.21"
+          },
+          {
+            "desc": "SOC-06_VideoOut_ver0.21"
+          },
+          {
+            "desc": "PARTS-24_LCD Control_ver0.21_12inch_ver0.21"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-01-29",
+      "soc": "12.000400",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Enable all camera type in diag screen"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-02-05",
+      "soc": "12.000500",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-967][25TMA] Front/Rear Head Lamp design"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[AM12-35]1S_Irregular software_LVDS output swing control(SoC setting)"
+          },
+          {
+            "desc": "[TMA-160]Implementation of \"busy mark\" for resizing and switching between menu items"
+          },
+          {
+            "desc": "[TMAB25-316][25TMA][Operation][EventSurprise] BEEP 1 is NOT output when tapping a list item in Event Surprise while in a call"
+          },
+          {
+            "desc": "[TMAB25-279][25TMA][Wording][Climate] Text not fully displayed in Climate screen"
+          },
+          {
+            "desc": "[TMAB25-110][25TMA][Random][WebLink] After an incoming call, the USB video playback does not resume exactly where it stopped; instead, it jumps back a few seconds"
+          },
+          {
+            "desc": "[TDEM25-1009][25TMA] USB box light off trigger by ACC_DET timing"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Implement SYSTEM-06_Timing Chart_V0.26.xlsx *Only finished implement iAuto part"
+          },
+          {
+            "desc": "PARTS-21_Image_Quality_User_Adj_ver0.24"
+          },
+          {
+            "desc": "Implement SYSTEM-06_Timing Chart_V0.27"
+          },
+          {
+            "desc": "Implement the string id table_20260202"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-03-26",
+      "soc": "12.000600",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG80220601",
+      "amigo_p7": "PG80230101",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1053][25TMA][12.9]VR icon_Remove VR"
+          },
+          {
+            "desc": "[TDEM25-916][25TMA12.9Inch] Confirm DAB TA/RDS TA-Vol. Max\\Min function_only RDS *DAB no sound, cannot test"
+          },
+          {
+            "desc": "[TDEM25-865][25TMA 12inch]DAB Function *For the limitation, plesae refer to function list"
+          },
+          {
+            "desc": "Add Arabic language"
+          },
+          {
+            "desc": "[TDEM25-1073][25TMA][HMI]Change the BG of caution&interrupt screen_Only caution screen"
+          },
+          {
+            "desc": "[TDEM25-1072]Modify default vehicle&destination to Hilux/Widetread&Thailand"
+          },
+          {
+            "desc": "SW EQPIN R16 Version"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TDEM25-1021][25TMA] 3D car delay to show"
+          },
+          {
+            "desc": "[TMA-160]Implementation of \"busy mark\" for resizing and switching between menu item"
+          },
+          {
+            "desc": "[TMAB25-325][25TMA][Random][WebBrowser] The blank screen is displayed when access some link"
+          }
+        ],
+        "others": [
+          {
+            "desc": "PARTS-26_Thermal (TFT) control_ver0.22"
+          },
+          {
+            "desc": "PARTS-16_TP_application_note_12.9inch_ver0.02"
+          },
+          {
+            "desc": "[AMI12-38]SOC-03_CPG_RST_ver0.25"
+          },
+          {
+            "desc": "SOC-08_I2C+UART+SPI_V0.24"
+          },
+          {
+            "desc": "SOC-02_PinAssign_ver0.24"
+          },
+          {
+            "desc": "[TDEM25-1067][25TDEM_12.9Inch]【Amigo3.5】[Release Guide][Local] 1st Release_PG80230101DATA80230010"
+          },
+          {
+            "desc": "[DDAB-45]1st release : TOY05_TUNSDK_001.001.D02"
+          },
+          {
+            "desc": "[TDEM25-283]String ID table_20260324"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-04-02",
+      "soc": "12.000700",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG80220601",
+      "amigo_p7": "PG80230101",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1062][25TMA][Radio] Press \"SCAN\" shows \"STOP\""
+          },
+          {
+            "desc": "[TDEM25-1052][25TMA]BT HF no Mute button"
+          },
+          {
+            "desc": "[TDEM25-1048][25TMA] Battery Level change from line to point graph"
+          },
+          {
+            "desc": "[TDEM25-1076][25TMA]Change the Climate control symbols on Aircon"
+          },
+          {
+            "desc": "[TDEM25-1073][25TMA][HMI]Change the BG of caution&interrupt screen"
+          },
+          {
+            "desc": "[TDEM25-1072][Software package of 12.9 inch] Software 2 package for General and UAE(DAB)"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB-181][25TMA][Random][SystemUI] The screen is overlapped when transit screen"
+          },
+          {
+            "desc": "[TMA-169][Android] Unsuccessful first connection with WebLink Host App"
+          },
+          {
+            "desc": "[TMA-118][25TMA][PastBug][Weblink] Weblink screen is displayed flashing after reject call"
+          },
+          {
+            "desc": "[TMAB25-335][25TMA][Compatibility][BT Setting] The “Add Device” option is dimmed after connecting wired CarPlay"
+          },
+          {
+            "desc": "[TMAB25-339][25TMA][Random][WebLink]After a factory reset, WebLink is unable to connect when connected via cable to Device2"
+          },
+          {
+            "desc": "[TDEM25-732][25TMA]mtk limitation_support 3 BT devices at same time"
+          },
+          {
+            "desc": "[TMAB25-343][25TMA][Random][BTPhone] Popup MM_00_11_03 Telephone in progress displayed on Media after making a call causes a “Dial Failed” message."
+          },
+          {
+            "desc": "[TDEM25-1051][25TMA] Split screen flashing when interrupt_No3"
+          },
+          {
+            "desc": "[TMAB-350][25TMA][Random][WiFiSetting]WiFi turn OFF automatically after switching ON"
+          },
+          {
+            "desc": "[TMAB25-344][25TMA] Fail to connect to CarPlay when switch from other source"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-04-09",
+      "soc": "12.000800",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG80220601",
+      "amigo_p7": "PG80230201",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-791]Drive mode animation change"
+          },
+          {
+            "desc": "[25TMA]Change the Climate control symbols on Aircon"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TDEM25-1069][DDAB-72]Fix DAB no sound *Amigo &TUNSDK modify"
+          },
+          {
+            "desc": "[TMAB25-348][25TMA][Random][WebLink]WebLink reconnects when HFP is disconnected"
+          },
+          {
+            "desc": "[TMAB25-342][25TMA][Random][BT Phone]The MM_07_07_09_11_1_3 No history screen displays abnormally when connect to the HU via BT for the first time after a factory reset"
+          },
+          {
+            "desc": "[TDME25-1074][25TMA 12inch]Tuner TA show again after TA close *Amigo modify"
+          },
+          {
+            "desc": "[TDEM25-1051][25TMA] Split screen flashing when interrupt"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Integrate the TUNSDK(TOY05_TUNSDK_I2S_Fix_Eng_Drop_07042026)"
+          },
+          {
+            "desc": "[DDAB-40]TUNSDK Log *Update toolchain"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-04-16",
+      "soc": "12.000900",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG80220601",
+      "amigo_p7": "PG80230201",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-35][25TMA] Owner Manual in HU"
+          },
+          {
+            "desc": "[TDEM25-1044][25TMA][Spec addition] Vehicle colour 2 way change by Vehicle colour and GVIF mode"
+          },
+          {
+            "desc": "[TDEM25-855]Update RHD&LHD camera parameter"
+          },
+          {
+            "desc": "[TDEM25-791]Drive mode animation change"
+          },
+          {
+            "desc": "[TDEM25-1097][25TMA][HMI] Change the QR code image on OM page"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-78][Ensemble name] Station not available"
+          },
+          {
+            "desc": "[TMAB25-348][25TMA][Random][WebLink]WebLink reconnects when HFP is disconnected"
+          },
+          {
+            "desc": "[TMAB25-341][25TMA][Random][VoiceRecognize] The split screen is overlaid when a VR command is input"
+          },
+          {
+            "desc": "[TMAB25-350][25TMA][Random][WiFiSetting]WiFi turn OFF automatically after switching ON_IOS"
+          },
+          {
+            "desc": "[TDEM25-855]Fixed fortuner camera calibration issue(Rear& Front) from 20260407 calibration result"
+          },
+          {
+            "desc": "[DDAB-79][List]Arabic display"
+          },
+          {
+            "desc": "[DDAB-77][List]STL-order"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Implement the HW app note *SOC-23_MIPI_Input_Abnormal_Det(GVIF3-Rx)_ver0.23(rls)"
+          },
+          {
+            "desc": "Implement the HW app note *SOC-22_MIPI_Input_Abnormal_Det(HD-TVI)_ver0.23(rls)"
+          },
+          {
+            "desc": "Add DAB in the Diag screen"
+          },
+          {
+            "desc": "[TDEM25-283]String id_20260416"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-04-23",
+      "soc": "12.001000",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG80220601",
+      "amigo_p7": "PG80230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1095][25TMA] Modify calibration step"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-351][25TMA][Random][BT Phone] BT HFP remains connected when CarPlay is enabled *Remake6"
+          },
+          {
+            "desc": "[TMAB25-342][25TMA][Random][BT Phone]The MM_07_07_09_11_1_3 No history screen displays abnormally when connect to the HU via BT for the first time after a factory reset *With iOS device"
+          },
+          {
+            "desc": "[TMAB25-344][25TMA] Fail to connect to CarPlay when switch from other source"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Integrate the Amigo(PG80230301DATA80230030)"
+          },
+          {
+            "desc": "Implement DAB TA/Alarm *Since iAuto do not have two signal transmission simulators, we are unable to test the scenario where both TA and Alarm signals are simultaneously triggered."
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-04-30",
+      "soc": "12.001100",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG80230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-791][25TMA] Drive mode flow change_Fix angle when play drive mode animation"
+          },
+          {
+            "desc": "[TDEM25-1118][25TMA][12.9\"] [Spec change] Change the information in the software version screen *Only for setting screen"
+          },
+          {
+            "desc": "[25TMA] Owner Manual in HU_25TMA_Setting_OM_001_20260427"
+          },
+          {
+            "desc": "[TDEM25-1046]Add GR wallpaper. *Default value not implement yet."
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "After carplay call, sometime cannot wake up siri by voice"
+          },
+          {
+            "desc": "Connect carplay, after acc off on, sometime cannot wake up siri by voice"
+          },
+          {
+            "desc": "Mulit language of \"STOP\" in Tuner screen not correct"
+          },
+          {
+            "desc": "A signal freezing issue regarding the steering angle with GVIF PVM."
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-89]Service up/down *Fixed by TUNSDK"
+          },
+          {
+            "desc": "[DDAB-56][Debug issue]TunSDK didn't write any persistent files *Fixed by TUNSDK"
+          },
+          {
+            "desc": "[DDAB-54][Debug issue]Abnormal Initial Value Retrieval, Abnormal Return Value After PresetStore Call *Fixed by TUNSDK"
+          },
+          {
+            "desc": "[DDAB-79][List]Arabic display_whatever language display start from left side *Only DAB service list screen"
+          },
+          {
+            "desc": "[TMAB25-340][25TMA][Random][CarPlay] Cannot connect wireless CarPlay after delete device"
+          },
+          {
+            "desc": "[TMAB25-348][25TMA][Random][WebLink]WebLink reconnects when HFP is disconnected"
+          },
+          {
+            "desc": "[TDEM25-1126][25TMA]TH font not same size *Update PSD"
+          },
+          {
+            "desc": "[TMBA25-361][25TMA]NFC wifi pairing connection status wrong(Remote Control App) *Update Android remote control APP(1.2.3.11)"
+          }
+        ],
+        "others": [
+          {
+            "desc": "[DDAB-46]integrate the new DAB SDK(TOY05_TUNSDK_001.002.R03)"
+          },
+          {
+            "desc": "25TMA_StringID_20260427_PASAP_R2"
+          },
+          {
+            "desc": "Integrate the Cyberon SDK(2026/4/26)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-05-14",
+      "soc": "12.001200",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG80230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1130][25TMA][12.9]GR Opening screen"
+          },
+          {
+            "desc": "[TDEM25-35][25TMA] Owner Manual in HU_modified the text of Connecting a Bluetooth® Device_2 IND,MY,TH"
+          },
+          {
+            "desc": "[TDEM25-1118]dab & small mcu version in diag&Testmode_12inch"
+          },
+          {
+            "desc": "[TDEM25-1046]Default value of wallpaper"
+          },
+          {
+            "desc": "[TDEM25-1134][25TMA]Change the wording in Thai"
+          },
+          {
+            "desc": "[TDEM25-1080][25TMA][12.9]Pray opening screen *Not add pray setting in setting screen yet"
+          },
+          {
+            "desc": "[TDEM25-1075][25TMA spec change]Hood detection by CAN"
+          },
+          {
+            "desc": "[TDEM25-1140][25TMA][Camera] Remove Front Guideline on D View"
+          },
+          {
+            "desc": "[TDEM25-1142][25TMA]Change the wording"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "Fixed cut word issue in OM"
+          },
+          {
+            "desc": "Fix issue that SOC not wait GPI_GVIF_READY status, then start mipi data detection *Only REV ON case"
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-346][25TMA][Random][SystemSetting] When driving is restricted, do not return to the screen MM_09_01_01_49 User Account Menu"
+          },
+          {
+            "desc": "[TDEM25-1034][25TMA] CarPlay Wired Connection"
+          },
+          {
+            "desc": "[TMAB25-366][25TMA][Random][Relax/EventSurprise] RelaxMode auto quit when access while playing CP music"
+          },
+          {
+            "desc": "[TMAB25-348][25TMA][Random][WebLink]WebLink reconnects when HFP is disconnected *Spec Update"
+          },
+          {
+            "desc": "[TMAB25-372][25TMA][Random][Virtual Keyboard] The keyboard freezes and cannot be closed when there is an incoming call"
+          },
+          {
+            "desc": "[TMAB25-373][25TMA][Random][CarPlay] After exit the camera screen, will flash the wallpaper before switching to the CarPlay screen"
+          },
+          {
+            "desc": "[TMAB25-351][25TMA][Random][BT Phone] BT HFP remains connected when CarPlay is enabled"
+          },
+          {
+            "desc": "[TDEM25-1143][25TMA][Q&A][Wording] Confirm to update spec"
+          },
+          {
+            "desc": "[AM12-63]1.5S_DAB_Test mode malfunction"
+          },
+          {
+            "desc": "[TMA-169][Android] Unsuccessful first connection with WebLink Host App"
+          },
+          {
+            "desc": "[TMAB25-356][25TMA][Random][DeviceList] DeviceList displays USB Device when unplug wired CarPlay immediately"
+          }
+        ],
+        "others": [
+          {
+            "desc": "SYS-03_Vehicle_signal_interface_ver0.25 *SW no change"
+          },
+          {
+            "desc": "Integrate the SDK(20260507) *Only DSpotter part_remove license date"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-05-21",
+      "soc": "12.001300",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG80230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1080][25TMA][12.9]Setting of Pray opening screen in setting screen"
+          },
+          {
+            "desc": "[TDEM25-1146][25TMA]Black blink screen before Camera Interrupt Improvement"
+          },
+          {
+            "desc": "[TDEM25-1084][25TMA][12.9 inch]3D car model_Only support rotation *Not include 2D"
+          },
+          {
+            "desc": "[TDEM25-1149][25TMA]Update String ID"
+          },
+          {
+            "desc": "[TDEM25-1150][25TMA]Modify all Km to km"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "Setting not show 3D car in Home edit mode, after ACC OFF ON, still show it."
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-110][Preset]Preset up/down does not work when services are registered non-contiguously in the preset list."
+          },
+          {
+            "desc": "[DDAB-108][Announcement]Mute state remained unchanged even during the TA interrupt"
+          },
+          {
+            "desc": "[DDAB-105][service name]The service name includes an unintended control character (“□“)."
+          }
+        ],
+        "others": [
+          {
+            "desc": "Add theme setting screen of 12inch"
+          },
+          {
+            "desc": "[TDEM25-1115][25TMA]Improving 3D Rotation Performance"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-05-28",
+      "soc": "12.001400",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1152][25TMA]Change the design water temp and battery"
+          },
+          {
+            "desc": "[TDEM25-1145]Radio AF default value change to ON in DAB destination(AMI-03_Radio Feature list_ver0.211)"
+          },
+          {
+            "desc": "[TDEM25-1148][25TMA] Request special test mode for access Touch check directly"
+          },
+          {
+            "desc": "[TDEM25-1084][25TMA][12.9 inch]Remove fuel tank in 3D car model & Can open door"
+          },
+          {
+            "desc": "[TDEM25-855]Remove Pitch & Roll & option2 parameter in C view Zoom-in"
+          },
+          {
+            "desc": "OM Update(25TMA_Setting_OM_001_20260525.psd)"
+          },
+          {
+            "desc": "[TDEM25-1150][25TMA]Modify all Km to km_ODO"
+          },
+          {
+            "desc": "[TDEM25-855]Remove front static guideline on the all top view"
+          },
+          {
+            "desc": "[TDEM25-1159]Modify USB VID and BT VID & PID"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "Plug out USB, HU re-start *MTK kernel issue (AUTO00855260)"
+          },
+          {
+            "desc": "During a Bluetooth three-way call, after connecting via CarPlay on the same device and initiating a session, clicking on settings displays a blank split-screen."
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-88][Favorite]Favorite List"
+          },
+          {
+            "desc": "[DDAB-106][Preset]How is a registered service displayed in the preset lsit?"
+          },
+          {
+            "desc": "[DDAB-108][Announcement]Mute state remained unchanged even during the TA interrupt & DAB TA pop sound"
+          },
+          {
+            "desc": "[TMAB-376]After disconnected wired with device C, device name still displays in device list, then HU is freeze and reset *Fix by MTK"
+          },
+          {
+            "desc": "[TDEM25-283]The highlight color of AR language display not correct"
+          }
+        ],
+        "others": [
+          {
+            "desc": "[DDAB-47]Integrate the new DAB SDK(TOY05_TUNSDK_001.001.R04)"
+          },
+          {
+            "desc": "[DDAB-8][Q&A] DAB-FM Link"
+          },
+          {
+            "desc": "Integrate the Weblink SDK ver. 3.3.0.13363"
+          },
+          {
+            "desc": "Implement the HW APP NOTE(PARTS-26_Thermal (TFT) control_ver0.23)"
+          },
+          {
+            "desc": "Implement the HW APP NOTE(SOC-06_VideoOut_ver0.22)"
+          },
+          {
+            "desc": "SOC-02_PinAssign_ver0.25 *SW dont need change"
+          },
+          {
+            "desc": "Implement the HW APP NOTE(PARTS-21_Image_Quality_User_Adj_ver0.25)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-06-11",
+      "soc": "12.020100",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Racing mode *Except Steering Angle & Animation"
+          },
+          {
+            "desc": "[TDEM25-1133][25TMA][GVIF PVM][HMI] All list to the modification of the design"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TDEM25-1154][25TMA]Improvement OK button highlight time after update sw"
+          },
+          {
+            "desc": "[TMAB25-380][25 TMA][Random][Relax Mode] The Relax Mode screen remains displayed when REV ON -> Call is active -> REV OFF"
+          }
+        ],
+        "others": [
+          {
+            "desc": "SOC-12_eMMC_ver0.30"
+          },
+          {
+            "desc": "SOC-10_USB_ver0.24 *No SW change"
+          },
+          {
+            "desc": "SOC-07_VideoIn_ver0.25 *No SW change"
+          },
+          {
+            "desc": "SYS-03_Vehicle_signal_interface_0.26 *No SW change"
+          },
+          {
+            "desc": "[TDEM25-1135]integrate the Android Auto Library 4.3.5"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-06-18",
+      "soc": "12.020200",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-968]Implement full function for racing mode"
+          },
+          {
+            "desc": "Car hybird(25TMA_Vehicle_Widget_001_20260616)"
+          },
+          {
+            "desc": "The text of VR language setting change from UK English to English(UK)"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "[DDAB-130]Integrate the DAB SDK(TOY05_TUNSDK_001.001.D05_20260611)"
+          },
+          {
+            "desc": "[TDEM25-283]String id_20260617"
+          },
+          {
+            "desc": "Implemented HW App note(SOC-15_ADC_ver0.22)"
+          },
+          {
+            "desc": "[DDAB-77]Service name space issue *Fixed by TUNSDK"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-06-25",
+      "soc": "12.020300",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-283]String ID table_20260619"
+          },
+          {
+            "desc": "[TDEM25-1076][25TMA]Change the Climate control symbols on Aircon_25TMA_AirCon_001_20260619"
+          },
+          {
+            "desc": "[TDEM25-968]ESE animation rule change"
+          },
+          {
+            "desc": "[TDEM25-1158]SID14_Positive response; SID19,AB,31_Negative *Same SP7"
+          },
+          {
+            "desc": "[TDEM25-1164]Change the 3D car option color from 8 to 6 *Cannot response color"
+          },
+          {
+            "desc": "[TDEM25-855]Change GVIF PVM Front guideline length from 2m to 3m"
+          },
+          {
+            "desc": "[TDEM25-967]Head lamp change for Engine ON *Same as SP(9.001833)"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "Fixed issue that cannot back to vehicle information screen after enter racing mode."
+          },
+          {
+            "desc": "Fixed GVIF PVM protocol Opcode 0x93 issue"
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-113]The antenna icon is activated when selecting a default ch with no signal"
+          },
+          {
+            "desc": "[TMAB25-382][25TMA][Random][USB] Track Number still displayed previous when play next video in list"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Racing mode psd_ver.20260622"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-07-02",
+      "soc": "12.020400",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Change car model design in off road(Roll&Pitch)"
+          },
+          {
+            "desc": "[TDEM25-1094][25TMA] Auto launch CP screen"
+          },
+          {
+            "desc": "[TDEM25-1167][25TMA][12.9\"][AAP] Confirm Phone Feature"
+          },
+          {
+            "desc": "Racing mode psd(ver20260629) for fix cut issue"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "BT Audio playing, after ACC ON, BT cannot power on *Only find one time"
+          }
+        ],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "[DDAB-139]DAB SDK(TOY05_TUNSDK_001.001.D06_20260626)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-07-09",
+      "soc": "12.020500",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1180][25TMA][GVIF PVM] Camera screen, Display OFF by hand gesture should not work"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "[TDEM25-1177][25TMA][12.9inch] Problem with textframe on service remain"
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-383][25TMA][Random][CarPlay] The split screen disappears after tapping Full/Half screen in CarPlay"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-07-10",
+      "soc": "12.020600",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1185][25TMA][12.9inch] Request implement AppNote SYS-06_Audio signal control_V0.21"
+          },
+          {
+            "desc": "Change EMMC to Samsung"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "Implemented the HW APP NOTE(SYSTEM-06_Timing Chart_V0.28)"
+          },
+          {
+            "desc": "Implemented the HW APP NOTE(SYS-06_Audio signal control_V0.21)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-07-16",
+      "soc": "12.020700",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[AM12-69]2S_DAB_Addition read BER value in test mode"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-140][Announcement]TA does not end when Alarm ends"
+          },
+          {
+            "desc": "[TMA-180] [12.9-inch] [Android] HU Does not Request Wireless Connection When Android Auto is Disabled on the Phone Side"
+          },
+          {
+            "desc": "[TDEM25-1079][25TMA] WAA is requesting a connection even though the user did not connect"
+          },
+          {
+            "desc": "[TMAB25-376][25TMA][Random][CarPlay] Wired CP displayed abnormal after reconnect"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Implemented the AAP cer WPC30 *AAP Certification: AP mode Wi-Fi password must be at least 15 characters and consist of ASCII characters only."
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-07-23",
+      "soc": "12.020800",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1180][25TMA][GVIF PVM] Camera screen, Display OFF by button should not work"
+          },
+          {
+            "desc": "[TDEM25-1193][25TMA 12.9 inch][Test Mode] request disable test mode on model without DAB"
+          },
+          {
+            "desc": "[AM12-69]Add vol adjust in DAB S/N"
+          },
+          {
+            "desc": "Implement the latest 3D model(20260626)&Change vehcle color"
+          }
+        ],
+        "iAutoBug": [
+          {
+            "desc": "Fixed HMI Noise issue_setting system main screen & profile account management screen"
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen not displayed when transit from Music Widget"
+          },
+          {
+            "desc": "[TMAB25-390][25TMA][12.9inch][Pastbug][RelaxMode] Do not return to last screen when tapping Back on RemoControl"
+          }
+        ],
+        "others": [
+          {
+            "desc": "[DDAB-158]DAB SDK(TOY05_TUNSDK_001.001.R07_20260717)"
+          },
+          {
+            "desc": "[DDAB-40]Add DAB SDK log into iAuto DT log"
+          },
+          {
+            "desc": "[TDEM25-1182][25TMA 12.9 inch][Andriod Auto] SSL Key"
+          },
+          {
+            "desc": "CarPlay Certification – Meet the 60FPS Requirement"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-07-30",
+      "soc": "12.020900",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG8F230301",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1198][25TMA][12.9inch][HMI] Extend the pusharea for Time delay and speaker level"
+          },
+          {
+            "desc": "OM Change"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-383][25TMA][Random][CarPlay] The split screen disappears after tapping Full/Half screen in CarPlay_Need feedback"
+          },
+          {
+            "desc": "[DDAB-145][Q&A] STL Focus Does Not Change After Track Up/Down Operation via Steering Switch While STL Is Open"
+          },
+          {
+            "desc": "[TMAB25-396][25TMA][12.9inch][Random][Carplay] CP screen blink a moment after end TA interrupt while Siri in progress"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Non-DAB Amigo release(PG80220801DATA80220080)"
+          }
+        ]
       }
     }
   ]
