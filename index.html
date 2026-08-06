@@ -35,16 +35,16 @@
   .tab.tab-yellow.selected{background:#f59e0b;color:#5b3a00}
 
   /* 月历（仿内网形式） */
-  .cal-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:16px;max-width:460px}
-  .cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
-  .cal-head button{border:none;background:#eef2ff;border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:15px;color:var(--brand)}
-  .cal-title{font-size:16px;font-weight:700}
-  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
-  .cal-dow{text-align:center;font-size:12px;color:var(--muted);font-weight:600;padding:2px 0}
-  .cal-cell{height:34px;line-height:34px;text-align:center;border-radius:8px;cursor:default;color:#374151;font-size:13px;position:relative;user-select:none}
+  .cal-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px;margin-bottom:16px;max-width:360px}
+  .cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+  .cal-head button{border:none;background:#eef2ff;border-radius:6px;width:26px;height:26px;cursor:pointer;font-size:13px;color:var(--brand)}
+  .cal-title{font-size:14px;font-weight:700}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+  .cal-dow{text-align:center;font-size:11px;color:var(--muted);font-weight:600;padding:2px 0}
+  .cal-cell{height:26px;line-height:26px;text-align:center;border-radius:6px;cursor:default;color:#374151;font-size:12px;position:relative;user-select:none}
   .cal-cell.blank{cursor:default;color:transparent}
   .cal-cell.has{background:#eef2ff;color:var(--brand);cursor:pointer;font-weight:700}
-  .cal-cell.has::after{content:"";position:absolute;left:50%;top:3px;width:6px;height:6px;margin-left:-3px;background:var(--brand);border-radius:50%}
+  .cal-cell.has::after{content:"";position:absolute;left:50%;top:2px;width:5px;height:5px;margin-left:-2.5px;background:var(--brand);border-radius:50%}
   .cal-cell.sel{background:var(--brand);color:#fff}
   .cal-cell.sel::after{background:#fff}
 
@@ -66,7 +66,7 @@
   .footer{color:var(--muted);font-size:22px;text-align:center;padding:20px}
   .note-bold{font-weight:600}
   .layout{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
-  .col-cal{flex:0 0 460px;max-width:100%}
+  .col-cal{flex:0 0 360px;max-width:100%}
   .col-detail{flex:1;min-width:320px}
 </style>
 </head>
@@ -116,7 +116,7 @@
 
 <script>
   // 由发布脚本注入：对外数据 + 访问密码
-  window.EXT_DATA = {"generated": "2026-08-06 16:19:43", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
+  window.EXT_DATA = {"generated": "2026-08-06 16:34:23", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
   // 由发布脚本注入：对外数据 + 访问密码
   window.EXT_PASS = "kengteesud";
 
