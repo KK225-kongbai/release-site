@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 18:25:44",
+  "generated": "2026-08-06 18:32:50",
   "weeks": [
     {
       "version": "14inch",
@@ -113,7 +113,11 @@
             "desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"
           }
         ],
-        "others": []
+        "others": [
+          {
+            "desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"
+          }
+        ]
       }
     },
     {
