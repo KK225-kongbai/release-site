@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 17:25:06",
+  "generated": "2026-08-06 18:25:44",
   "weeks": [
     {
       "version": "14inch",
@@ -43,6 +43,9 @@
         "others": [
           {
             "desc": "VR SDK"
+          },
+          {
+            "desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"
           }
         ]
       }
@@ -110,6 +113,26 @@
             "desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"
           }
         ],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-08-20",
+      "soc": "12.021200",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.27",
+      "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030",
+      "upgrade": "kwi",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1186][25TMA 12.9inch] Fix angle when 3D Door Open"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
         "others": []
       }
     }
