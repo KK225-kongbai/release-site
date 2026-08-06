@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 17:05:51",
+  "generated": "2026-08-06 17:11:35",
   "weeks": [
     {
       "version": "14inch",
@@ -9,6 +9,7 @@
       "mcu_small": "45.42",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
+      "upgrade": "",
       "sections": {
         "specChange": [
           {
@@ -54,6 +55,7 @@
       "mcu_small": "",
       "mcu": "12.27",
       "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030",
+      "upgrade": "",
       "sections": {
         "specChange": [
           {
@@ -69,7 +71,7 @@
             "desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"
           },
           {
-            "desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"
+            "desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"
           },
           {
             "desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"
@@ -89,6 +91,7 @@
       "mcu_small": "",
       "mcu": "12.27",
       "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030",
+      "upgrade": "",
       "sections": {
         "specChange": [
           {
