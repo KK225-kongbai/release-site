@@ -19,7 +19,7 @@
   .searchbar{display:flex;align-items:center;gap:10px;margin-bottom:14px}
   .searchbar input{flex:1;max-width:420px;padding:9px 14px;font-size:14px;border:1px solid var(--line);border-radius:9px;outline:none}
   .searchbar input:focus{border-color:var(--brand)}
-  .srch-hint{font-size:13px;color:var(--muted)}
+  .srch-hint{font-size:13px;color:var(--muted);white-space:nowrap}
   .search-results{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:16px}
   .search-results h4{margin:0 0 12px;font-size:15px}
   .sr-item{display:flex;gap:14px;padding:10px 6px;border-bottom:1px dashed var(--line)}
@@ -30,15 +30,27 @@
   .tab{padding:10px 30px;border-radius:9px;cursor:pointer;font-weight:600;font-size:16px;border:1px solid transparent;color:#7a828e;user-select:none}
   .tab.tab-blue.selected{background:#2563eb;color:#fff}
   .tab.tab-yellow.selected{background:#f59e0b;color:#5b3a00}
-  .weekbar h2{font-size:18px;margin:0 0 8px}
-  .weekbar .hint{font-weight:400;font-size:12px;color:var(--muted)}
+
+  /* 月历（仿内网形式） */
+  .cal-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:16px;max-width:460px}
+  .cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+  .cal-head button{border:none;background:#eef2ff;border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:15px;color:var(--brand)}
+  .cal-title{font-size:16px;font-weight:700}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+  .cal-dow{text-align:center;font-size:12px;color:var(--muted);font-weight:600;padding:2px 0}
+  .cal-cell{height:34px;line-height:34px;text-align:center;border-radius:8px;cursor:default;color:#374151;font-size:13px;position:relative;user-select:none}
+  .cal-cell.blank{cursor:default;color:transparent}
+  .cal-cell.has{background:#eef2ff;color:var(--brand);cursor:pointer;font-weight:700}
+  .cal-cell.has::after{content:"";position:absolute;left:50%;top:3px;width:6px;height:6px;margin-left:-3px;background:var(--brand);border-radius:50%}
+  .cal-cell.sel{background:var(--brand);color:#fff}
+  .cal-cell.sel::after{background:#fff}
+
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:16px}
   .meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
   .meta-field label{display:block;font-size:14px;color:var(--text);margin-bottom:4px;font-weight:600}
   .meta-field .val{font-size:15px;color:#374151;padding:4px 0}
   .section-head{display:flex;align-items:center;gap:10px;padding:2px 0 10px;border-bottom:1px solid var(--line);margin-bottom:12px}
-  .week-block{margin-bottom:26px}
-  .week-date{font-size:17px;color:var(--brand);margin:0 0 8px;border-bottom:2px solid var(--line);padding-bottom:6px}
+  .week-date{font-size:17px;color:var(--brand);margin:0 0 14px;border-bottom:2px solid var(--line);padding-bottom:6px}
   .section-head h3{margin:0;font-size:16px}
   .badge{background:#eef2ff;color:var(--brand);border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700}
   .item{font-size:15px;line-height:1.7;padding:10px 2px;border-bottom:1px dashed var(--line);white-space:pre-wrap;word-break:break-word}
@@ -50,6 +62,9 @@
   .gate .err{color:var(--red);font-size:13px;min-height:18px}
   .footer{color:var(--muted);font-size:22px;text-align:center;padding:20px}
   .note-bold{font-weight:600}
+  .layout{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+  .col-cal{flex:0 0 460px;max-width:100%}
+  .col-detail{flex:1;min-width:320px}
 </style>
 </head>
 <body>
@@ -87,9 +102,10 @@
       <div class="tab tab-yellow" data-v="12inch" onclick="setVersion('12inch')">12inch</div>
     </div>
 
-    <div class="weekday"><h2>Release Note <span class="hint" id="weekHint"></span></h2></div>
-
-    <div id="content"></div>
+    <div class="layout">
+      <div class="col-cal" id="calColumn"></div>
+      <div class="col-detail" id="detailColumn"></div>
+    </div>
 
     <div class="footer"><span class="note-bold">สำหรับ PASAP เท่านั้น, โปรดอย่าส่งต่อ</span></div>
   </div>
@@ -97,30 +113,16 @@
 
 <script>
   // 由发布脚本注入：对外数据 + 访问密码
-  window.EXT_DATA = {"generated": "2026-08-06 15:49:46", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
+  window.EXT_DATA = {"generated": "2026-08-06 16:16:26", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": []}}]};
   // 由发布脚本注入：对外数据 + 访问密码
   window.EXT_PASS = "kengteesud";
 
   var cur = { version: "14inch" };
-  var locked_ = null;
+  var _cal = null;   // 月历当前 {y,m}
+  var _selDate = null; // 当前选中的日期 (YYYY-MM-DD)
 
-  function $(id){ return document.getElementById(id); }
-  function esc(s){
-    return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});
-  }
-
-  // 密码校验
-  function doUnlock(){
-    var v = $("pw").value;
-    if(EXT_PASS && v === EXT_PASS){ $("gate").style.display="none"; $("main").style.display="block"; renderAll(); }
-    else { $("pwErr").textContent = "Wrong password"; $("pw").value=""; }
-  }
-
-  // 数据：外部 weeks（只含 desc 等对外字段）
-  var VERSION_LABELS = {
-    "14inch": { name:"14inch", metas:["date","soc","mcu_large","mcu_small","amigo"], metaLabels:{date:"Date",soc:"SOC Ver.","mcu_large":"Main MCU","mcu_small":"Sub MCU",amigo:"Amigo Ver."} },
-    "12inch": { name:"12inch", metas:["date","soc","mcu","amigo"], metaLabels:{date:"Date",soc:"SOC Ver.",mcu:"MCU Ver.",amigo:"Amigo Ver."} }
-  };
+  var EN_MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var EN_DOWS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   var SECTION_LABELS = [
     {key:"specChange", label:"Spec Change"},
     {key:"iAutoBug", label:"iAuto Internal Bug Fix"},
@@ -128,12 +130,38 @@
     {key:"others", label:"Others"}
   ];
 
-  function versionWeeks(){
-    var arr = (EXT_DATA && EXT_DATA.weeks) ? EXT_DATA.weeks : [];
-    return arr.filter(function(w){ return w.version === cur.version; });
+  function $(id){ return document.getElementById(id); }
+  function esc(s){
+    return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});
   }
 
-  function renderAll(){ renderTabs(); renderSections(); renderHint(); }
+  // 该版本所有周（已排序）
+  function versionWeeks(){
+    var arr = (EXT_DATA && EXT_DATA.weeks) ? EXT_DATA.weeks : [];
+    return arr.filter(function(w){ return w.version === cur.version; })
+              .sort(function(a,b){ return (a.date||"").localeCompare(b.date||""); });
+  }
+  function curVersion(){ return cur.version; }
+
+  // 密码校验
+  function doUnlock(){
+    var v = $("pw").value;
+    if(EXT_PASS && v === EXT_PASS){ $("gate").style.display="none"; $("main").style.display="block"; initView(); }
+    else { $("pwErr").textContent = "Wrong password"; $("pw").value=""; }
+  }
+
+  function initView(){
+    var weeks = versionWeeks();
+    // 默认选中最近一个日期
+    if(weeks.length){ _selDate = weeks[weeks.length-1].date; }
+    else { _selDate = null; }
+    // 初始月 = 选中日期所在月
+    if(_selDate){ var d = new Date(_selDate+"T00:00:00"); _cal = {y:d.getFullYear(), m:d.getMonth()}; }
+    else { var t=new Date(); _cal={y:t.getFullYear(), m:t.getMonth()}; }
+    renderTabs();
+    renderCalendar();
+    renderDetail();
+  }
 
   function renderTabs(){
     document.querySelectorAll(".tab").forEach(function(t){
@@ -142,45 +170,84 @@
   }
   function setVersion(v){
     cur.version = v;
-    renderAll();
+    initView();
   }
 
-  function renderHint(){
-    var arr = versionWeeks();
-    $("weekHint").textContent = " - " + arr.length + " week(s)";
-  }
-
-  function renderSections(){
-    var box = $("content");
+  // 当前版本某日是否有周
+  function weekByDate(ds){
     var weeks = versionWeeks();
-    var html = "";
-    if(!weeks.length){
-      box.innerHTML = '<div class="card"><div class="empty-note">No data.</div></div>';
+    for(var i=0;i<weeks.length;i++) if(weeks[i].date === ds) return weeks[i];
+    return null;
+  }
+
+  function renderCalendar(){
+    var col = $("calColumn");
+    var y=_cal.y, m=_cal.m;
+    var head = '<div class="cal-head">'
+      + '<button onclick="calMonth(-1)">◀</button>'
+      + '<span class="cal-title">'+EN_MONTHS[m]+' '+y+'</span>'
+      + '<button onclick="calMonth(1)">▶</button></div>';
+    var grid = '<div class="cal-grid">';
+    EN_DOWS.forEach(function(d){ grid += '<div class="cal-dow">'+d+'</div>'; });
+    var firstDow = new Date(y,m,1).getDay();
+    var days = new Date(y,m+1,0).getDate();
+    for(var i=0;i<firstDow;i++) grid += '<div class="cal-cell blank"></div>';
+    for(var d=1;d<=days;d++){
+      var ds = y+"-"+String(m+1).padStart(2,"0")+"-"+String(d).padStart(2,"0");
+      var wk = weekByDate(ds);
+      var cls = "cal-cell";
+      if(wk) cls += " has";
+      if(ds === _selDate) cls += " sel";
+      if(wk){
+        grid += '<div class="'+cls+'" onclick="pickDate(\''+ds+'\')">'+d+'</div>';
+      } else {
+        grid += '<div class="'+cls+'">'+d+'</div>';
+      }
+    }
+    grid += '</div>';
+    $("calColumn").innerHTML = head + grid;
+  }
+  function shiftMonth(delta){
+    _cal.m += delta;
+    if(_cal.m<0){ _cal.m=11; _cal.y--; }
+    if(_cal.m>11){ _cal.m=0; _cal.y++; }
+    renderCalendar();
+  }
+  function pickDate(ds){
+    _selDate = ds;
+    renderCalendar();
+    renderDetail();
+  }
+
+  function renderDetail(){
+    var box = $("detailColumn");
+    if(!_selDate){
+      box.innerHTML = '<div class="card"><div class="empty-note">No release note selected. Click a date in the calendar.</div></div>';
+      return;
+    }
+    var w = weekByDate(_selDate);
+    if(!w){
+      box.innerHTML = '<div class="card"><div class="empty-note">No release note for this date.</div></div>';
       return;
     }
     var spec = (cur.version==="14inch") ? ["date","soc","mcu_large","mcu_small","amigo"] : ["date","soc","mcu","amigo"];
-    weeks.forEach(function(w){
-      // 每个周一个独立卡片，先显示日期 + 元数据
-      html += '<div class="week-block"><h3 class="week-date">'+esc(w.date || "—")+'</h3>';
-      html += '<div class="card"><div class="meta-grid">';
-      spec.forEach(function(k){
-        var v = w[k] || "";
-        html += '<div class="meta-field"><label>'+esc(labels0(k))+'</label><div class="val">'+esc(v).replace(/\n/g,"<br>")+'</div></div>';
-      });
-      html += '</div></div>';
-      // 各段
-      SECTION_LABELS.forEach(function(sec){
-        var arr = (w.sections||{})[sec.key] || [];
-        html += '<div class="card"><div class="section-head"><h3>'+esc(sec.label)+'</h3><span class="badge">'+arr.length+' items</span></div>';
-        if(!arr.length){ html += '<div class="empty-note">No items.</div>'; }
-        else {
-          arr.forEach(function(it, i){
-            var desc = (it && it.desc) || "";
-            html += '<div class="item">'+(i+1)+'. '+esc(desc)+'</div>';
-          });
-        }
-        html += '</div>';
-      });
+    var html = '<h3 class="week-date">'+esc(w.date||"—")+'</h3>';
+    html += '<div class="card"><div class="meta-grid">';
+    spec.forEach(function(k){
+      var v = w[k] || "";
+      html += '<div class="meta-field"><label>'+esc(labels0(k))+'</label><div class="val">'+esc(v).replace(/\n/g,"<br>")+'</div></div>';
+    });
+    html += '</div></div>';
+    SECTION_LABELS.forEach(function(sec){
+      var arr = (w.sections||{})[sec.key] || [];
+      html += '<div class="card"><div class="section-head"><h3>'+esc(sec.label)+'</h3><span class="badge">'+arr.length+' items</span></div>';
+      if(!arr.length){ html += '<div class="empty-note">No items.</div>'; }
+      else {
+        arr.forEach(function(it,i){
+          var desc = (it && it.desc) || "";
+          html += '<div class="item">'+(i+1)+'. '+esc(desc)+'</div>';
+        });
+      }
       html += '</div>';
     });
     box.innerHTML = html;
@@ -195,8 +262,7 @@
     var hint = $("srchHint");
     var res = $("searchResults");
     if(!kw){
-      res.style.display = "none"; res.innerHTML = "";
-      hint.textContent = "";
+      res.style.display = "none"; res.innerHTML = ""; hint.textContent = "";
       return;
     }
     var arr = (EXT_DATA && EXT_DATA.weeks) ? EXT_DATA.weeks : [];
@@ -205,8 +271,7 @@
       SECTION_LABELS.forEach(function(sec){
         (((w.sections||{})[sec.key])||[]).forEach(function(it){
           if((it.desc||"").toLowerCase().indexOf(kw) >= 0){
-            // 版本标签：14inch / 12inch
-            found.push({ver:(w.version || ""), date:(w.date || ""), sec:sec.label, text:it.desc});
+            found.push({ver:(w.version||""), date:(w.date||""), sec:sec.label, text:it.desc});
           }
         });
       });
