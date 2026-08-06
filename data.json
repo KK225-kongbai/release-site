@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06 18:32:50",
+  "generated": "2026-08-06 18:48:45",
   "weeks": [
     {
       "version": "14inch",
@@ -57,7 +57,7 @@
       "mcu_large": "",
       "mcu_small": "",
       "mcu": "12.27",
-      "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301   DATA8F230030",
+      "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -116,6 +116,9 @@
         "others": [
           {
             "desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"
+          },
+          {
+            "desc": "WebLink Official Client SDK 3.5.0.13979"
           }
         ]
       }
