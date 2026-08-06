@@ -68,9 +68,6 @@
   .layout{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
   .col-cal{flex:0 0 360px;max-width:100%}
   .col-detail{flex:1;min-width:320px}
-  .refresh-bar{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:center;gap:10px;background:#fff7ed;border-bottom:2px solid #f59e0b;padding:8px 12px}
-  .refresh-bar .msg{font-size:14px;color:#92400e}
-  .refresh-bar button{border:none;border-radius:8px;padding:8px 18px;font-size:14px;background:#f59e0b;color:#fff;cursor:pointer;font-weight:700}
 </style>
 </head>
 <body>
@@ -87,11 +84,6 @@
 
 <!-- 主内容（默认隐藏，验证后显示） -->
 <div id="main" style="display:none">
-  <!-- 有新更新时显示的刷新条（默认隐藏） -->
-  <div id="refreshBar" class="refresh-bar" style="display:none">
-    <span class="msg">🔄 Data has been updated.</span>
-    <button onclick="location.reload()">Refresh</button>
-  </div>
   <div class="topbar">
     <div class="topbar-inner">
       <div class="brand"><span class="dot"></span> PASAP Release Note</div>
@@ -123,7 +115,7 @@
 
 <script>
   // 由发布脚本注入：对外数据 + 访问密码
-  window.EXT_DATA = {"generated": "2026-08-06 18:56:13", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}, {"desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801 DATA80220080\nP7: PG8F230301 DATA8F230030", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": [{"desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"}, {"desc": "WebLink Official Client SDK 3.5.0.13979"}]}}, {"version": "12inch", "date": "2026-08-20", "soc": "12.021200", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "P1~P6:PG80220801   DATA80220080\nP7: PG8F230301   DATA8F230030", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[TDEM25-1186][25TMA 12.9inch] Fix angle when 3D Door Open"}], "iAutoBug": [], "jiraBug": [], "others": []}}]};
+  window.EXT_DATA = {"generated": "2026-08-06 19:04:33", "weeks": [{"version": "14inch", "date": "2026-08-13", "soc": "14.100000", "mcu_large": "45.59", "mcu_small": "45.42", "mcu": "", "amigo": "PG80220801 DATA80220080", "amigo_p1p6": "", "amigo_p7": "", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[STT-310]Voltage issue_JBL AMP error pop up"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": [{"desc": "VR SDK"}, {"desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"}]}}, {"version": "12inch", "date": "2026-08-06", "soc": "12.021000", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "", "amigo_p1p6": "PG80220801 DATA80220080", "amigo_p7": "PG8F230301 DATA8F230030", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[AM12-69]2S_DAB_Addition read BER value in test mode_decimal valve"}], "iAutoBug": [], "jiraBug": [{"desc": "[TMAB25-395][25TMA][12.9inch][Operation][DAB] Not cancel Favrite checkbox state when BT call interrupt"}, {"desc": "[TMAB25-375][25TMA][Random][Carplay] Wireless CarPlay does not auto-reconnect after the phone is taken out of the HU range and then Wi-Fi is reconnected on the phone"}, {"desc": "[TMAB25-393][25TMA][12.9inch][Flow][WebLink] WebLink music screen does not displayed when transit from Music Widget (while WebLink music source OFF)_Update spec"}, {"desc": "[TMAB25-400][25TMA][Weblink] Split screen flickers when Dial Failed on Weblink"}, {"desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"}], "others": []}}, {"version": "12inch", "date": "2026-08-13", "soc": "12.021100", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "", "amigo_p1p6": "PG80220801   DATA80220080", "amigo_p7": "PG8F230301   DATA8F230030", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"}, {"desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"}, {"desc": "[TDEM25-1149]String ID_20260805"}], "iAutoBug": [], "jiraBug": [{"desc": "[DDAB-150] Ensemble Name and Service Name Are Not Displayed on Now Playing Screen When Selecting a Favorite Service with RF OFF"}], "others": [{"desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"}, {"desc": "WebLink Official Client SDK 3.5.0.13979"}]}}, {"version": "12inch", "date": "2026-08-20", "soc": "12.021200", "mcu_large": "", "mcu_small": "", "mcu": "12.27", "amigo": "", "amigo_p1p6": "PG80220801   DATA80220080", "amigo_p7": "PG8F230301   DATA8F230030", "upgrade": "kwi", "sections": {"specChange": [{"desc": "[TDEM25-1186][25TMA 12.9inch] Fix angle when 3D Door Open"}], "iAutoBug": [], "jiraBug": [], "others": []}}]};
   // 由发布脚本注入：对外数据 + 访问密码
   window.EXT_PASS = "kengteesud";
 
@@ -153,11 +145,24 @@
   }
   function curVersion(){ return cur.version; }
 
+  // 已解锁状态 key（页面加载时若在则自动进入，免重复输密码）
+  var _unlockedKey = "pasap_unlocked_fhnv";
+
   // 密码校验
   function doUnlock(){
     var v = $("pw").value;
-    if(EXT_PASS && v === EXT_PASS){ $("gate").style.display="none"; $("main").style.display="block"; initView(); startUpdateWatcher(); }
+    if(EXT_PASS && v === EXT_PASS){
+      try{ localStorage.setItem(_unlockedKey, "1"); }catch(e){}
+      showMain();
+    }
     else { $("pwErr").textContent = "Wrong password"; $("pw").value=""; }
+  }
+  // 进入主界面（首次输密码后调用）
+  function showMain(){
+    $("gate").style.display="none";
+    $("main").style.display="block";
+    initView();
+    startUpdateWatcher();
   }
 
   // 简易内容哈希（基于对外 weeks 数据）
@@ -167,20 +172,33 @@
     for(i=0;i<s.length;i++){ h = ((h<<5)-h) + s.charCodeAt(i); h |= 0; }
     return ""+h;
   }
-  // 定期检测是否有新同步：有新内容就显示刷新条（每 60 秒）
+  // 定期检测：有新同步就自动刷新整页（每 30 秒）；重载后免密码（已有解锁标记）
   function startUpdateWatcher(){
     var baseHash = extHash(EXT_DATA);
-    var bar = $("refreshBar");
     setInterval(function(){
       fetch("data.json", {cache:"no-store"}).then(function(r){ return r.json(); })
         .then(function(d){
           if(extHash(d) !== baseHash){
-            bar.style.display = "flex";
+            location.reload();
           }
         })
         .catch(function(){ /* 网络/解析失败则忽略 */ });
-    }, 60000);
+    }, 30000);
   }
+  // 页面加载：如果已经解锁过（浏览器本地记录），直接进主界面
+  (function autoUnlockOnLoad(){
+    var unlock = false;
+    try{ unlock = localStorage.getItem(_unlockedKey) === "1"; }catch(e){}
+    if(unlock){
+      try{ $("main").style.display = "block"; $("gate").style.display = "none"; }catch(e){}
+      // 需等 DOM 就绪后 init
+      if(document.readyState === "complete" || document.readyState === "interactive"){
+        initView(); startUpdateWatcher();
+      }else{
+        document.addEventListener("DOMContentLoaded", function(){ initView(); startUpdateWatcher(); });
+      }
+    }
+  })();
 
   function initView(){
     var weeks = versionWeeks();
@@ -262,7 +280,7 @@
       box.innerHTML = '<div class="card"><div class="empty-note">No release note for this date.</div></div>';
       return;
     }
-    var spec = (cur.version==="14inch") ? ["date","soc","mcu_large","mcu_small","amigo","upgrade"] : ["date","soc","mcu","amigo","upgrade"];
+    var spec = (cur.version==="14inch") ? ["date","soc","mcu_large","mcu_small","amigo","upgrade"] : ["date","soc","mcu","amigo_p1p6","amigo_p7","upgrade"];
     var html = '<h3 class="week-date">'+esc(w.date||"—")+'</h3>';
     html += '<div class="card"><div class="meta-grid">';
     spec.forEach(function(k){
@@ -287,7 +305,7 @@
     box.innerHTML = html;
   }
   function labels0(k){
-    return {date:"Date",soc:"SOC Ver.","mcu_large":"Main MCU","mcu_small":"Sub MCU",mcu:"MCU Ver.",amigo:"Amigo Ver.",upgrade:"Upgrade"}[k] || k;
+    return {date:"Date",soc:"SOC Ver.","mcu_large":"Main MCU","mcu_small":"Sub MCU",mcu:"MCU Ver.",amigo:"Amigo Ver.",amigo_p1p6:"Amigo(P1~P6)",amigo_p7:"Amigo(P7)",upgrade:"Upgrade"}[k] || k;
   }
 
   // 本地搜索（跨所有版本/周，搜 desc），结果含版本号与日期
@@ -309,7 +327,8 @@
             var mcu = "";
             if(w.version === "14inch"){ var a=[w.mcu_large,w.mcu_small].filter(Boolean).join(" / "); mcu = a || ""; }
             else { mcu = w.mcu || ""; }
-            found.push({ver:(w.version||""), date:(w.date||""), amigo:(w.amigo||""),
+            var amigo = (w.version === "12inch") ? [w.amigo_p1p6,w.amigo_p7].filter(Boolean).join(" / ") : (w.amigo||"");
+            found.push({ver:(w.version||""), date:(w.date||""), amigo:amigo,
                         upgrade:(w.upgrade||""), soc:(w.soc||""), mcu:mcu, sec:sec.label, text:it.desc});
           }
         });
