@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 09:36:32",
+  "generated": "2026-08-07 11:51:55",
   "weeks": [
     {
       "version": "14inch",
@@ -152,7 +152,7 @@
       "amigo": "PG80220101 DATA80220010",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "develop&kwi",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -199,7 +199,7 @@
       "amigo": "-",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "develop&kwi",
       "sections": {
         "specChange": [
           {
@@ -228,8 +228,8 @@
       "version": "14inch",
       "date": "2025-01-17",
       "soc": "0.020130",
-      "mcu_large": "40.1",
-      "mcu_small": "40.1",
+      "mcu_large": "40.10",
+      "mcu_small": "40.10",
       "mcu": "",
       "amigo": "PG80220101 DATA80220010",
       "amigo_p1p6": "",
@@ -406,8 +406,8 @@
       "version": "14inch",
       "date": "2025-02-26",
       "soc": "0.020710",
-      "mcu_large": "40.5",
-      "mcu_small": "40.5",
+      "mcu_large": "40.50",
+      "mcu_small": "40.50",
       "mcu": "",
       "amigo": "PG80220201 DATA80220020",
       "amigo_p1p6": "",
@@ -434,8 +434,8 @@
       "version": "14inch",
       "date": "2025-02-28",
       "soc": "0.020710",
-      "mcu_large": "40.5",
-      "mcu_small": "40.5",
+      "mcu_large": "40.50",
+      "mcu_small": "40.50",
       "mcu": "",
       "amigo": "PG8022F201 DATA8022F020",
       "amigo_p1p6": "",
@@ -617,7 +617,7 @@
       "amigo": "PG8022F201 DATA8022F020",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "develop&kwi",
       "sections": {
         "specChange": [
           {
@@ -765,8 +765,8 @@
       "version": "14inch",
       "date": "2025-04-29",
       "soc": "0.030000",
-      "mcu_large": "42",
-      "mcu_small": "42",
+      "mcu_large": "42.00",
+      "mcu_small": "42.00",
       "mcu": "",
       "amigo": "PG80220401 DATA80220040",
       "amigo_p1p6": "",
@@ -935,7 +935,7 @@
       "amigo": "-",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "update.key",
+      "upgrade": "ROM",
       "sections": {
         "specChange": [
           {
@@ -1101,8 +1101,8 @@
       "version": "14inch",
       "date": "2025-05-27",
       "soc": "0.030370",
-      "mcu_large": "43.2",
-      "mcu_small": "43.2",
+      "mcu_large": "43.20",
+      "mcu_small": "43.20",
       "mcu": "",
       "amigo": "PG80220401 DATA80220040",
       "amigo_p1p6": "",
@@ -2139,8 +2139,8 @@
       "version": "14inch",
       "date": "2025-08-28",
       "soc": "0.031700",
-      "mcu_large": "44.010",
-      "mcu_small": "44.010",
+      "mcu_large": "44.01",
+      "mcu_small": "44.01",
       "mcu": "",
       "amigo": "PG80220501 DATA80220050",
       "amigo_p1p6": "",
@@ -3060,8 +3060,8 @@
       "version": "14inch",
       "date": "2025-12-25",
       "soc": "14.034300",
-      "mcu_large": "45.2",
-      "mcu_small": "45.2",
+      "mcu_large": "45.20",
+      "mcu_small": "45.20",
       "mcu": "",
       "amigo": "PG80220601 DATA80220060",
       "amigo_p1p6": "",
@@ -3548,7 +3548,7 @@
       "date": "2026-03-19",
       "soc": "14.035300",
       "mcu_large": "45.48",
-      "mcu_small": "45.4",
+      "mcu_small": "45.40",
       "mcu": "",
       "amigo": "PG80220601 DATA80220060",
       "amigo_p1p6": "",
@@ -3602,8 +3602,8 @@
       "version": "14inch",
       "date": "2026-04-02",
       "soc": "14.035400",
-      "mcu_large": "45.5",
-      "mcu_small": "45.4",
+      "mcu_large": "45.50",
+      "mcu_small": "45.40",
       "mcu": "",
       "amigo": "PG80220601 DATA80220060",
       "amigo_p1p6": "",
@@ -3696,7 +3696,7 @@
       "date": "2026-04-16",
       "soc": "14.035500",
       "mcu_large": "45.52",
-      "mcu_small": "45.4",
+      "mcu_small": "45.40",
       "mcu": "",
       "amigo": "PG80220601 DATA80220060",
       "amigo_p1p6": "",
@@ -3771,7 +3771,7 @@
       "date": "2026-04-29",
       "soc": "14.040000",
       "mcu_large": "45.54",
-      "mcu_small": "45.4",
+      "mcu_small": "45.40",
       "mcu": "",
       "amigo": "PG8D220601 DATA8D220060",
       "amigo_p1p6": "",
@@ -3847,7 +3847,7 @@
       "date": "2026-05-14",
       "soc": "14.040100",
       "mcu_large": "45.55",
-      "mcu_small": "45.4",
+      "mcu_small": "45.40",
       "mcu": "",
       "amigo": "PG8D220601 DATA8D220060",
       "amigo_p1p6": "",
@@ -4040,7 +4040,7 @@
       "amigo": "PG8D220601 DATA8D220060",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "update.key",
+      "upgrade": "image",
       "sections": {
         "specChange": [
           {
@@ -4365,7 +4365,7 @@
             "desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"
           },
           {
-            "desc": "WebLink Official Client SDK 3.5.0.13979"
+            "desc": "WebLink Official Client SDK 3.5.0.14297"
           }
         ]
       }
@@ -4402,7 +4402,7 @@
       "amigo": "",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "ROM",
       "sections": {
         "specChange": [
           {
@@ -4420,11 +4420,11 @@
       "soc": "12.000200",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "44.99",
+      "mcu": "44.99&44.99",
       "amigo": "",
-      "amigo_p1p6": "",
-      "amigo_p7": "",
-      "upgrade": "kwi",
+      "amigo_p1p6": "-",
+      "amigo_p7": "-",
+      "upgrade": "ROM",
       "sections": {
         "specChange": [
           {
@@ -4439,14 +4439,14 @@
     {
       "version": "12inch",
       "date": "2026-01-22",
-      "soc": "12.000300",
+      "soc": "12.000300 *Based on 25TMA 14inch 14.034800&45.39&45.36",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "45.39",
+      "mcu": "45.39&45.36",
       "amigo": "",
-      "amigo_p1p6": "",
-      "amigo_p7": "",
-      "upgrade": "kwi",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "-",
+      "upgrade": "image",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -4470,14 +4470,14 @@
     {
       "version": "12inch",
       "date": "2026-01-29",
-      "soc": "12.000400",
+      "soc": "12.000400  **Based on 25TMA 14inch 14.034900&45.41&45.37",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "45.41",
+      "mcu": "45.41&45.37",
       "amigo": "",
-      "amigo_p1p6": "",
+      "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "develop",
       "sections": {
         "specChange": [
           {
@@ -4495,11 +4495,11 @@
       "soc": "12.000500",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12",
+      "mcu": "12.00",
       "amigo": "",
-      "amigo_p1p6": "",
-      "amigo_p7": "",
-      "upgrade": "kwi",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "-",
+      "upgrade": "develop",
       "sections": {
         "specChange": [
           {
@@ -4551,9 +4551,9 @@
       "mcu_small": "",
       "mcu": "12.11",
       "amigo": "",
-      "amigo_p1p6": "PG80220601",
-      "amigo_p7": "PG80230101",
-      "upgrade": "kwi",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "PG80230101 DATA80230010",
+      "upgrade": "image",
       "sections": {
         "specChange": [
           {
@@ -4626,8 +4626,8 @@
       "mcu_small": "",
       "mcu": "12.12",
       "amigo": "",
-      "amigo_p1p6": "PG80220601",
-      "amigo_p7": "PG80230101",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "PG80230101 DATA80230010",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -4694,8 +4694,8 @@
       "mcu_small": "",
       "mcu": "12.12",
       "amigo": "",
-      "amigo_p1p6": "PG80220601",
-      "amigo_p7": "PG80230201",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "PG80230201 DATA80230020",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -4742,8 +4742,8 @@
       "mcu_small": "",
       "mcu": "12.13",
       "amigo": "",
-      "amigo_p1p6": "PG80220601",
-      "amigo_p7": "PG80230201",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "PG80230201 DATA80230020",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -4811,8 +4811,8 @@
       "mcu_small": "",
       "mcu": "12.15",
       "amigo": "",
-      "amigo_p1p6": "PG80220601",
-      "amigo_p7": "PG80230301",
+      "amigo_p1p6": "PG80220601 DATA80220060",
+      "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -4850,8 +4850,8 @@
       "mcu_small": "",
       "mcu": "12.16",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG80230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -4929,8 +4929,8 @@
       "mcu_small": "",
       "mcu": "12.17",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG80230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5023,8 +5023,8 @@
       "mcu_small": "",
       "mcu": "12.19",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG80230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5078,8 +5078,8 @@
       "mcu_small": "",
       "mcu": "12.21",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5169,9 +5169,9 @@
       "mcu_small": "",
       "mcu": "12.23",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
-      "upgrade": "kwi",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
+      "upgrade": "image",
       "sections": {
         "specChange": [
           {
@@ -5217,8 +5217,8 @@
       "mcu_small": "",
       "mcu": "12.24",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5258,8 +5258,8 @@
       "mcu_small": "",
       "mcu": "12.24",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5316,8 +5316,8 @@
       "mcu_small": "",
       "mcu": "12.25",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5355,8 +5355,8 @@
       "mcu_small": "",
       "mcu": "12.25",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5385,9 +5385,9 @@
       "mcu_small": "",
       "mcu": "12.26",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
-      "upgrade": "kwi",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
+      "upgrade": "image",
       "sections": {
         "specChange": [
           {
@@ -5417,8 +5417,8 @@
       "mcu_small": "",
       "mcu": "12.26",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5456,8 +5456,8 @@
       "mcu_small": "",
       "mcu": "12.26",
       "amigo": "",
-      "amigo_p1p6": "PG8D220601",
-      "amigo_p7": "PG8F230301",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
@@ -5512,7 +5512,7 @@
       "mcu": "12.26",
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
-      "amigo_p7": "PG8F230301",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
