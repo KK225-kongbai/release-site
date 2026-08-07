@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 14:41:14",
+  "generated": "2026-08-07 16:32:30",
   "weeks": [
     {
       "version": "14inch",
@@ -4363,7 +4363,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
-      "note": "",
+      "note": "14inch MP Release",
       "sections": {
         "specChange": [
           {
@@ -4440,6 +4440,12 @@
           },
           {
             "desc": "WebLink Official Client SDK 3.5.0.14297"
+          },
+          {
+            "desc": "Implement HW App Note(SYSTEM-06_Timing Chart_V0.29) *SW don't need update"
+          },
+          {
+            "desc": "Implement HW App Note(SOC-12_eMMC_ver0.31) *SW don't need update"
           }
         ]
       }
