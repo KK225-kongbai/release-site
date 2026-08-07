@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 18:15:13",
+  "generated": "2026-08-07 19:04:08",
   "weeks": [
     {
       "version": "14inch",
@@ -4373,7 +4373,7 @@
             "desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"
           },
           {
-            "desc": "[TDEM25-1149]String ID_20260805"
+            "desc": "[TDEM25-1149]String ID_20260805&20260807"
           }
         ],
         "iAutoBug": [],
@@ -4425,7 +4425,7 @@
             "desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"
           },
           {
-            "desc": "[TDEM25-1149]String ID_20260805"
+            "desc": "[TDEM25-1149]String ID_20260805&20260807"
           }
         ],
         "iAutoBug": [],
