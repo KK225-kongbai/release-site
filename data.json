@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 12:13:22",
+  "generated": "2026-08-07 13:39:26",
   "weeks": [
     {
       "version": "14inch",
@@ -4339,8 +4339,8 @@
       "mcu_small": "",
       "mcu": "12.27",
       "amigo": "",
-      "amigo_p1p6": "PG80220801   DATA80220080",
-      "amigo_p7": "PG8F230301   DATA8F230030",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
       "sections": {
         "specChange": [
