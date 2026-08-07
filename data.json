@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 14:03:03",
+  "generated": "2026-08-07 14:41:14",
   "weeks": [
     {
       "version": "14inch",
@@ -12,6 +12,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Step 1：SOC  *15min\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY\n\nStep2：SP Main MCU  *4min\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep3：Sub MCU    *2min\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep4：Main MCU    *4min\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep5：Sub MCU & SOC  *4min\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY",
       "sections": {
         "specChange": [
           {
@@ -48,6 +49,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -78,6 +80,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Limitation：After update , need selecte vehicle&destination again in diag.",
       "sections": {
         "specChange": [
           {
@@ -124,6 +127,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "update.key",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -153,6 +157,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "develop&kwi",
+      "note": "SOC upodate with update.key",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -182,6 +187,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -200,6 +206,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "develop&kwi",
+      "note": "Main and Sub MCU upodate with update.key",
       "sections": {
         "specChange": [
           {
@@ -235,6 +242,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -293,6 +301,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -345,6 +354,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -413,6 +423,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [],
         "iAutoBug": [
@@ -441,6 +452,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -463,6 +475,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -539,6 +552,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -618,6 +632,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "develop&kwi",
+      "note": "1. Select fortuner/AP other LHD(inline/JBL AMP)\n\nSmall MCU & Main MCU\n2. Put the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nSOC & Amigo\n3. Put the file  <version.kwi> in the root directory of the usb memory.\n*No Need UPDATE.KEY",
       "sections": {
         "specChange": [
           {
@@ -685,6 +700,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Small MCU & Main MCU& Amigo\n1. Put the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n*Need select fortuner & AP Other LHD (Inline/JBL) before update\n\nSOC\n2. Put the file  <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY\n\n*If HU not 0.021220 version, can update to this version directly. ",
       "sections": {
         "specChange": [
           {
@@ -772,6 +788,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Small MCU & Main MCU& Amigo\n1. Put the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nSOC\n2. Put the file  <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY",
       "sections": {
         "specChange": [],
         "iAutoBug": [
@@ -823,6 +840,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "ROM",
+      "note": "Only ROM package\n*Baed on 1s SW(0.030000&42.00), just implement some HW appnote. ",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -872,6 +890,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -936,6 +955,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "ROM",
+      "note": "Only ROM package",
       "sections": {
         "specChange": [
           {
@@ -972,6 +992,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "update.key",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1035,6 +1056,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "*Update based on 0.030200",
       "sections": {
         "specChange": [
           {
@@ -1108,6 +1130,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "develop&kwi",
+      "note": "*SW based on 0.030300&42.21\n\nStep1:\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2:\nPut the file <version.kwi> in the root directory of the usb memory.\n*No Need UPDATE.KEY",
       "sections": {
         "specChange": [
           {
@@ -1171,6 +1194,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1245,6 +1269,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1317,6 +1342,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1377,6 +1403,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1435,6 +1462,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1472,6 +1500,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1538,6 +1567,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "develop&kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1589,6 +1619,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1683,6 +1714,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "update.key",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1773,6 +1805,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1858,6 +1891,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -1939,6 +1973,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2005,6 +2040,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "The interrupt CSR HMI is implemented, and the CEE image file has changed, so the need update by image release.",
       "sections": {
         "specChange": [
           {
@@ -2080,6 +2116,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Due to the CSR HMI have update, so the need update by image release.",
       "sections": {
         "specChange": [
           {
@@ -2146,6 +2183,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2219,6 +2257,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2258,6 +2297,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2304,6 +2344,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2386,6 +2427,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Due to REV signal change to CAN, the boot part should update.",
       "sections": {
         "specChange": [
           {
@@ -2462,6 +2504,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2585,6 +2628,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "Please select GVIF PVM camera type in diag screen by manual.",
       "sections": {
         "specChange": [
           {
@@ -2639,6 +2683,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2698,6 +2743,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2752,6 +2798,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Due to add more animation, we increase the data layout size, need update by image this time.",
       "sections": {
         "specChange": [
           {
@@ -2796,6 +2843,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2851,6 +2899,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2912,6 +2961,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -2969,6 +3019,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3026,6 +3077,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3067,6 +3119,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "*After update, please factory reset in setting",
       "sections": {
         "specChange": [
           {
@@ -3134,6 +3187,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3188,6 +3242,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3248,6 +3303,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3293,6 +3349,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3362,6 +3419,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3413,6 +3471,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3479,6 +3538,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3554,6 +3614,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "Step1: MCU&Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY",
       "sections": {
         "specChange": [
           {
@@ -3609,6 +3670,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3702,6 +3764,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3777,6 +3840,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3853,6 +3917,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -3959,6 +4024,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4041,6 +4107,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4092,6 +4159,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4143,6 +4211,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4172,6 +4241,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4208,6 +4278,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4253,6 +4324,7 @@
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4291,6 +4363,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4342,6 +4415,7 @@
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4381,6 +4455,7 @@
       "amigo_p1p6": "PG80220801   DATA80220080",
       "amigo_p7": "PG8F230301   DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4403,6 +4478,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "ROM",
+      "note": "Only ROM",
       "sections": {
         "specChange": [
           {
@@ -4425,6 +4501,7 @@
       "amigo_p1p6": "-",
       "amigo_p7": "-",
       "upgrade": "ROM",
+      "note": "ROM Package\n*Based on 25TMA 14inch 14.034000&44.99",
       "sections": {
         "specChange": [
           {
@@ -4447,6 +4524,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "-",
       "upgrade": "image",
+      "note": "*Based on 25TMA 14inch 14.034800&45.39&45.36\n\nStep1: MCU&Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY",
       "sections": {
         "specChange": [],
         "iAutoBug": [],
@@ -4478,6 +4556,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "",
       "upgrade": "develop",
+      "note": "*Based on 25TMA 14inch 14.034900&45.41&45.37\n\nOnly 1step update for MCU&Amigo&SOC:\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY",
       "sections": {
         "specChange": [
           {
@@ -4500,6 +4579,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "-",
       "upgrade": "develop",
+      "note": "Step1: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: MCU& Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY",
       "sections": {
         "specChange": [
           {
@@ -4554,6 +4634,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "PG80230101 DATA80230010",
       "upgrade": "image",
+      "note": "Step1: MCU& Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY",
       "sections": {
         "specChange": [
           {
@@ -4629,6 +4710,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "PG80230101 DATA80230010",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4697,6 +4779,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "PG80230201 DATA80230020",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4745,6 +4828,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "PG80230201 DATA80230020",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4814,6 +4898,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4853,6 +4938,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4932,6 +5018,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5026,6 +5113,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG80230301 DATA80230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5081,6 +5169,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5172,6 +5261,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "image",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5220,6 +5310,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5261,6 +5352,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5319,6 +5411,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5358,6 +5451,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5388,6 +5482,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "image",
+      "note": "Step1: MCU& Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE_G.KEY",
       "sections": {
         "specChange": [
           {
@@ -5420,6 +5515,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5459,6 +5555,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -5514,6 +5611,7 @@
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
