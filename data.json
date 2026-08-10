@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10 10:51:15",
+  "generated": "2026-08-10 19:13:46",
   "weeks": [
     {
       "version": "14inch",
@@ -5658,7 +5658,11 @@
       "sections": {
         "specChange": [],
         "iAutoBug": [],
-        "jiraBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TDEM25-1202][25TMA]Relax mode sound are choppy at the end before starting video again"
+          }
+        ],
         "others": [
           {
             "desc": "VR SDK_20260811"
