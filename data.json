@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 19:13:16",
+  "generated": "2026-08-10 10:51:15",
   "weeks": [
     {
       "version": "14inch",
@@ -4355,7 +4355,7 @@
     {
       "version": "14inch",
       "date": "2026-08-13",
-      "soc": "14.100000",
+      "soc": "14.040800",
       "mcu_large": "45.59",
       "mcu_small": "45.42",
       "mcu": "",
@@ -4363,7 +4363,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "kwi",
-      "note": "14inch MP Release",
+      "note": "",
       "sections": {
         "specChange": [
           {
@@ -4395,9 +4395,6 @@
           }
         ],
         "others": [
-          {
-            "desc": "VR SDK"
-          },
           {
             "desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"
           }
@@ -5642,6 +5639,29 @@
         "others": [
           {
             "desc": "Non-DAB Amigo release(PG80220801DATA80220080)"
+          }
+        ]
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-08-18",
+      "soc": "14.041000",
+      "mcu_large": "45.59",
+      "mcu_small": "45.42",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "note": "14inch MP Release",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "VR SDK_20260811"
           }
         ]
       }
