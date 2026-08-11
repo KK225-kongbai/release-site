@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11 11:53:51",
+  "generated": "2026-08-11 15:07:02",
   "weeks": [
     {
       "version": "14inch",
@@ -4357,7 +4357,7 @@
       "date": "2026-08-13",
       "soc": "14.040800",
       "mcu_large": "45.60",
-      "mcu_small": "45.42",
+      "mcu_small": "45.43",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
@@ -4402,7 +4402,10 @@
             "desc": "Implement HW App Note(PARTS-28_Battery_Monitor_ver0.22)"
           },
           {
-            "desc": "【TDEM25-1094】[25TMA] Auto launch CP screen"
+            "desc": "[TDEM25-1094][25TMA] Auto launch CP screen"
+          },
+          {
+            "desc": "Add MM command for JBL AMP"
           }
         ]
       }
@@ -4432,9 +4435,6 @@
           },
           {
             "desc": "[TDEM25-1209][25TMA]Request remove PVM failsafe"
-          },
-          {
-            "desc": ""
           }
         ],
         "iAutoBug": [],
@@ -5666,7 +5666,7 @@
       "date": "2026-08-18",
       "soc": "14.041000",
       "mcu_large": "45.60",
-      "mcu_small": "45.42",
+      "mcu_small": "45.43",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
