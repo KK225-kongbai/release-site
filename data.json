@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11 15:07:02",
+  "generated": "2026-08-12 15:18:46",
   "weeks": [
     {
       "version": "14inch",
@@ -4394,7 +4394,7 @@
             "desc": "[STT-310]Voltage issue_JBL AMP error pop up"
           },
           {
-            "desc": "[TDEM25-1061][25TMA] Can't switch to WAA and WCP (TKM Activity)"
+            "desc": "[TDEM25-1061][25TMA]Can't switch to WAA and WCP (TKM Activity)"
           }
         ],
         "others": [
@@ -4406,6 +4406,12 @@
           },
           {
             "desc": "Add MM command for JBL AMP"
+          },
+          {
+            "desc": "Implement HW App Note(SYSTEM-06_Timing Chart_V0.30_14&12.9inch)"
+          },
+          {
+            "desc": "Integrate the AVC LAN Lib_20260806"
           }
         ]
       }
@@ -4499,7 +4505,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "ROM",
-      "note": "Only ROM",
+      "note": "Only ROM\nBased: 14inch  4.033000 & 44.29\n",
       "sections": {
         "specChange": [
           {
@@ -4600,7 +4606,7 @@
       "amigo_p1p6": "PG80220601 DATA80220060",
       "amigo_p7": "-",
       "upgrade": "develop",
-      "note": "Step1: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: MCU& Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY",
+      "note": "Start 12inch official branch\n\nStep1: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: MCU& Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY",
       "sections": {
         "specChange": [
           {
@@ -5536,7 +5542,7 @@
       "amigo_p1p6": "PG8D220601 DATA8D220060",
       "amigo_p7": "PG8F230301 DATA8F230030",
       "upgrade": "kwi",
-      "note": "",
+      "note": "Back to EMMC Chip Samsung ",
       "sections": {
         "specChange": [
           {
@@ -5684,6 +5690,52 @@
         "others": [
           {
             "desc": "VR SDK_20260811"
+          },
+          {
+            "desc": "Disable Update.Key & Update G_Key & Testmode Key"
+          },
+          {
+            "desc": "Disable Serial Log"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-06-04",
+      "soc": "12.020000",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.22",
+      "amigo": "",
+      "amigo_p1p6": "PG8D220601 DATA8D220060",
+      "amigo_p7": "PG8F230301 DATA8F230030",
+      "upgrade": "image",
+      "note": "Start EMMC Chip  SW Silicon\n\nStep1: MCU& Amigo\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE.KEY\n\nStep2: SOC\nPut the file <25TMA> in the root directory of the usb memory.\n*Need UPDATE G.KEY",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-35]AR language of OM"
+          },
+          {
+            "desc": "Change EMMC Chip to Silicon"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-100][Announcement]The TP icon does not appear when tuning to a TP service"
+          }
+        ],
+        "others": [
+          {
+            "desc": "25TMA_StringID_20260602_PASAP"
+          },
+          {
+            "desc": "[TDEM25-1087][25TMA 12inch]AR Language issue_20260518"
+          },
+          {
+            "desc": "Implement all theme4 psd file *Except Camera, PASAP not provide yet"
           }
         ]
       }
