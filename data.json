@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13 09:34:42",
+  "generated": "2026-08-13 15:08:31",
   "weeks": [
     {
       "version": "14inch",
@@ -4373,7 +4373,7 @@
             "desc": "[TDEM25-1204][25TMA][HMI]Extend lock icon"
           },
           {
-            "desc": "[TDEM25-1149]String ID_20260805&20260807"
+            "desc": "[TDEM25-1149]String ID_20260805&20260807&20260813\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
           },
           {
             "desc": "[TDEM25-1209][25TMA]Request remove PVM failsafe"
@@ -4437,7 +4437,7 @@
             "desc": "[TDEM25-1156][TDEM25-1203][25TMA][Battery12v] Change HMI design based on customer meeting 30Jul26"
           },
           {
-            "desc": "[TDEM25-1149]String ID_20260805&20260807"
+            "desc": "[TDEM25-1149]String ID_20260805&20260807&20260813\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
           },
           {
             "desc": "[TDEM25-1209][25TMA]Request remove PVM failsafe"
@@ -4457,7 +4457,7 @@
             "desc": "WebLink Official Client SDK 3.5.0.14297"
           },
           {
-            "desc": "Implement HW App Note(SYSTEM-06_Timing Chart_V0.29) *SW don't need update"
+            "desc": "Implement HW App Note(SYSTEM-06_Timing Chart_V0.30_14&12.9inch)"
           },
           {
             "desc": "Implement HW App Note(SOC-12_eMMC_ver0.31) *SW don't need update"
