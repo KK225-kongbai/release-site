@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12 15:18:46",
+  "generated": "2026-08-13 09:34:42",
   "weeks": [
     {
       "version": "14inch",
@@ -5677,7 +5677,7 @@
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
+      "upgrade": "image",
       "note": "14inch MP Release",
       "sections": {
         "specChange": [
