@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13 15:08:31",
+  "generated": "2026-08-14 09:40:59",
   "weeks": [
     {
       "version": "14inch",
@@ -5683,6 +5683,9 @@
         "specChange": [
           {
             "desc": "[TDEM25-1210][25TMA][GVIF PVM][HMI] Wall Bar 2D Position Update"
+          },
+          {
+            "desc": "Disable \"Other\" Camera type in Diag and Testmode"
           }
         ],
         "iAutoBug": [],
