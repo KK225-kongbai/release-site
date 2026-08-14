@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14 14:04:46",
+  "generated": "2026-08-14 14:10:33",
   "weeks": [
     {
       "version": "14inch",
@@ -5689,10 +5689,17 @@
           },
           {
             "desc": " Update Roll/Pitch 3D Car Design"
+          },
+          {
+            "desc": "Climate Background Change"
           }
         ],
         "iAutoBug": [],
-        "jiraBug": [],
+        "jiraBug": [
+          {
+            "desc": "[CYBERON-136][25TMA]VR cannot recognize the 2nd digit for frequency command"
+          }
+        ],
         "others": [
           {
             "desc": "VR SDK_20260811"
