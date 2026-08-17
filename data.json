@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14 14:10:33",
+  "generated": "2026-08-17 11:48:10",
   "weeks": [
     {
       "version": "14inch",
@@ -4487,11 +4487,18 @@
           },
           {
             "desc": "[TDEM25-1210][25TMA][GVIF PVM][HMI] Wall Bar 2D Position Update"
+          },
+          {
+            "desc": "[TDEM25-1214][25TMA][12.9inch]Extend the push area of menu bar"
           }
         ],
         "iAutoBug": [],
         "jiraBug": [],
-        "others": []
+        "others": [
+          {
+            "desc": "DAB SDK_TOY05_TUNSDK_001.001.D08_20260814"
+          }
+        ]
       }
     },
     {
