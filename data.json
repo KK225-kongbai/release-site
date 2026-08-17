@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17 11:48:10",
+  "generated": "2026-08-17 13:57:45",
   "weeks": [
     {
       "version": "14inch",
@@ -4497,6 +4497,9 @@
         "others": [
           {
             "desc": "DAB SDK_TOY05_TUNSDK_001.001.D08_20260814"
+          },
+          {
+            "desc": "Amigo Release_"
           }
         ]
       }
@@ -5693,9 +5696,6 @@
           },
           {
             "desc": "Disable \"Other\" Camera type in Diag and Testmode"
-          },
-          {
-            "desc": " Update Roll/Pitch 3D Car Design"
           },
           {
             "desc": "Climate Background Change"
