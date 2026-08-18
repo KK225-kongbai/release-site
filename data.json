@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 15:22:34",
+  "generated": "2026-08-18 16:15:59",
   "weeks": [
     {
       "version": "14inch",
@@ -5686,7 +5686,7 @@
     {
       "version": "14inch",
       "date": "2026-08-20",
-      "soc": "14.100000",
+      "soc": "14.040900",
       "mcu_large": "45.61",
       "mcu_small": "45.43",
       "mcu": "",
@@ -5698,7 +5698,7 @@
       "sections": {
         "specChange": [
           {
-            "desc": "[TDEM25-1210][25TMA][GVIF PVM][HMI] Wall Bar 2D Position Update"
+            "desc": "[TDEM25-1210][25TMA][GVIF PVM][HMI]Wall Bar 2D Position Update"
           },
           {
             "desc": "Disable \"Other\" Camera type in Diag and Testmode"
@@ -5707,13 +5707,13 @@
             "desc": "Separate Climate background LHD/RHD"
           },
           {
-            "desc": "Separate Audio setting background LHD/RHD(PSD_20260817)"
+            "desc": "Separate Audio setting background LHD/RHD(PSD_20260817&20260818)"
           },
           {
             "desc": "Update 2D car of Roll&Pitch(PSD_20260818)"
           },
           {
-            "desc": "[TDEM25-1216][12.9 inch][AAP] Revise the text on pop-up AAP_String id(20260818)"
+            "desc": "[TDEM25-1216][12.9 inch][AAP]Revise the text on pop-up AAP_String id(20260818)"
           }
         ],
         "iAutoBug": [],
@@ -5778,15 +5778,15 @@
     {
       "version": "14inch",
       "date": "2026-09-11",
-      "soc": "14.100100",
+      "soc": "14.100000",
       "mcu_large": "45.61",
       "mcu_small": "45.43",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "kwi",
-      "note": "",
+      "upgrade": "image",
+      "note": "14inch MP RC",
       "sections": {
         "specChange": [
           {
