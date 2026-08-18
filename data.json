@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17 13:57:45",
+  "generated": "2026-08-18 15:22:34",
   "weeks": [
     {
       "version": "14inch",
@@ -4474,7 +4474,7 @@
       "soc": "12.021200",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12.28",
+      "mcu": "12.29",
       "amigo": "",
       "amigo_p1p6": "PG80220801   DATA80220080",
       "amigo_p7": "PG8F230301   DATA8F230030",
@@ -4490,6 +4490,12 @@
           },
           {
             "desc": "[TDEM25-1214][25TMA][12.9inch]Extend the push area of menu bar"
+          },
+          {
+            "desc": "Separate Audio setting background LHD/RHD(PSD_20260817)"
+          },
+          {
+            "desc": "[TDEM25-1216][12.9 inch][AAP] Revise the text on pop-up AAP_String id(20260818)"
           }
         ],
         "iAutoBug": [],
@@ -5679,16 +5685,16 @@
     },
     {
       "version": "14inch",
-      "date": "2026-08-18",
-      "soc": "14.041000",
-      "mcu_large": "45.60",
+      "date": "2026-08-20",
+      "soc": "14.100000",
+      "mcu_large": "45.61",
       "mcu_small": "45.43",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
-      "note": "14inch MP Release",
+      "note": "14inch MP Release(include ROM & USB & Wite into Board)",
       "sections": {
         "specChange": [
           {
@@ -5698,7 +5704,16 @@
             "desc": "Disable \"Other\" Camera type in Diag and Testmode"
           },
           {
-            "desc": "Climate Background Change"
+            "desc": "Separate Climate background LHD/RHD"
+          },
+          {
+            "desc": "Separate Audio setting background LHD/RHD(PSD_20260817)"
+          },
+          {
+            "desc": "Update 2D car of Roll&Pitch(PSD_20260818)"
+          },
+          {
+            "desc": "[TDEM25-1216][12.9 inch][AAP] Revise the text on pop-up AAP_String id(20260818)"
           }
         ],
         "iAutoBug": [],
@@ -5709,7 +5724,7 @@
         ],
         "others": [
           {
-            "desc": "VR SDK_20260811"
+            "desc": "VR SDK_20260818"
           },
           {
             "desc": "Disable Update.Key & Update G_Key & Testmode Key"
@@ -5758,6 +5773,32 @@
             "desc": "Implement all theme4 psd file *Except Camera, PASAP not provide yet"
           }
         ]
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-09-11",
+      "soc": "14.100100",
+      "mcu_large": "45.61",
+      "mcu_small": "45.43",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Improvement 2D/3D Car model"
+          },
+          {
+            "desc": "Add one new 3D&2D color(Ash/Black)"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": []
       }
     }
   ]
