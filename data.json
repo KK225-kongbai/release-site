@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 16:16:46",
+  "generated": "2026-08-18 18:58:27",
   "weeks": [
     {
       "version": "14inch",
@@ -4476,8 +4476,8 @@
       "mcu_small": "",
       "mcu": "12.29",
       "amigo": "",
-      "amigo_p1p6": "PG80220801   DATA80220080",
-      "amigo_p7": "PG8F230301   DATA8F230030",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
       "upgrade": "kwi",
       "note": "",
       "sections": {
@@ -4496,16 +4496,23 @@
           },
           {
             "desc": "[TDEM25-1216][12.9 inch][AAP] Revise the text on pop-up AAP_String id(20260818)"
+          },
+          {
+            "desc": "[TDEM25-1215][25TMA][12.9 inch]Change the text to icon"
           }
         ],
         "iAutoBug": [],
-        "jiraBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMA-194][Android]A black screen appears with a seamless transition from WiFi to USB connection, and the connection via USB with the Client cannot be established sometimes"
+          }
+        ],
         "others": [
           {
             "desc": "DAB SDK_TOY05_TUNSDK_001.001.D08_20260814"
           },
           {
-            "desc": "Amigo Release_"
+            "desc": "Amigo Release_PG80230401DATA80230040"
           }
         ]
       }
