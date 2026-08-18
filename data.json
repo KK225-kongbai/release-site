@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 16:15:59",
+  "generated": "2026-08-18 16:16:46",
   "weeks": [
     {
       "version": "14inch",
@@ -5694,7 +5694,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
-      "note": "14inch MP Release(include ROM & USB & Wite into Board)",
+      "note": "14inch MP Release(USB & Wite into Board)",
       "sections": {
         "specChange": [
           {
@@ -5786,7 +5786,7 @@
       "amigo_p1p6": "",
       "amigo_p7": "",
       "upgrade": "image",
-      "note": "14inch MP RC",
+      "note": "14inch MP RC Release(ROM & USB & Wite into Board)",
       "sections": {
         "specChange": [
           {
