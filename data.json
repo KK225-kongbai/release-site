@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19 17:06:57",
+  "generated": "2026-08-20 17:38:27",
   "weeks": [
     {
       "version": "14inch",
@@ -4508,9 +4508,6 @@
           },
           {
             "desc": "[DDAB-175]Incorrect DAB Signal Mark level indication after Ensemble Seek Up"
-          },
-          {
-            "desc": "[TDEM25-1205][12.9 inch][AAP] Design Assessment QA"
           }
         ],
         "others": [
@@ -5727,6 +5724,9 @@
           },
           {
             "desc": "[TDEM25-1216][12.9 inch][AAP]Revise the text on pop-up AAP_String id(20260818)"
+          },
+          {
+            "desc": "[TDEM25-1220][25TMA]Extend touch area mark frame in Menu bar"
           }
         ],
         "iAutoBug": [],
@@ -5741,9 +5741,6 @@
           },
           {
             "desc": "Disable Update.Key & Update G_Key & Testmode Key"
-          },
-          {
-            "desc": "Disable Serial Log"
           }
         ]
       }
@@ -5809,6 +5806,29 @@
             "desc": "Add one new 3D&2D color(Ash/Black)"
           }
         ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "Disable Serial Log"
+          }
+        ]
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-08-27",
+      "soc": "14.041000",
+      "mcu_large": "45.61",
+      "mcu_small": "45.43",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [],
         "iAutoBug": [],
         "jiraBug": [],
         "others": []
