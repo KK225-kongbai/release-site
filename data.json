@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24 10:46:15",
+  "generated": "2026-08-24 13:44:49",
   "weeks": [
     {
       "version": "14inch",
@@ -5840,6 +5840,25 @@
             "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
           }
         ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-08-27",
+      "soc": "12.021300",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.29",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": []
       }
     }
   ]
