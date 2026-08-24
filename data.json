@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20 17:38:27",
+  "generated": "2026-08-24 10:46:15",
   "weeks": [
     {
       "version": "14inch",
@@ -5790,7 +5790,7 @@
       "date": "2026-09-11",
       "soc": "14.100000",
       "mcu_large": "45.61",
-      "mcu_small": "45.43",
+      "mcu_small": "45.44",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
@@ -5820,7 +5820,7 @@
       "date": "2026-08-27",
       "soc": "14.041000",
       "mcu_large": "45.61",
-      "mcu_small": "45.43",
+      "mcu_small": "45.44",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
@@ -5828,10 +5828,18 @@
       "upgrade": "kwi",
       "note": "",
       "sections": {
-        "specChange": [],
+        "specChange": [
+          {
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+          }
+        ],
         "iAutoBug": [],
         "jiraBug": [],
-        "others": []
+        "others": [
+          {
+            "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
+          }
+        ]
       }
     }
   ]
