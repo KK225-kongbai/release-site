@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26 11:28:18",
+  "generated": "2026-08-26 11:30:08",
   "weeks": [
     {
       "version": "14inch",
@@ -5817,7 +5817,7 @@
         ],
         "iAutoBug": [
           {
-            "desc": "When the Android device name is set in English, the device name is truncated when the AAP Device Choose message is displayed."
+            "desc": "When the Android device name(ggg) is set in English, the device name is truncated when the AAP Device Choose message is displayed."
           }
         ],
         "jiraBug": [],
@@ -5847,7 +5847,7 @@
         "specChange": [],
         "iAutoBug": [
           {
-            "desc": "When the Android device name is set in English, the device name is truncated when the AAP Device Choose message is displayed."
+            "desc": "When the Android device name(ggg) is set in English, the device name is truncated when the AAP Device Choose message is displayed."
           }
         ],
         "jiraBug": [],
