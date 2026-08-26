@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24 13:44:49",
+  "generated": "2026-08-26 11:28:18",
   "weeks": [
     {
       "version": "14inch",
@@ -5804,38 +5804,27 @@
           },
           {
             "desc": "Add one new 3D&2D color(Ash/Black)"
+          },
+          {
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+          },
+          {
+            "desc": "[TDEM25-1220]Air Con animation change"
+          },
+          {
+            "desc": "[TDEM25-1170][25TMA] Study reduce Gyro manual inspection"
           }
         ],
-        "iAutoBug": [],
+        "iAutoBug": [
+          {
+            "desc": "When the Android device name is set in English, the device name is truncated when the AAP Device Choose message is displayed."
+          }
+        ],
         "jiraBug": [],
         "others": [
           {
             "desc": "Disable Serial Log"
-          }
-        ]
-      }
-    },
-    {
-      "version": "14inch",
-      "date": "2026-08-27",
-      "soc": "14.041000",
-      "mcu_large": "45.61",
-      "mcu_small": "45.44",
-      "mcu": "",
-      "amigo": "PG80220801 DATA80220080",
-      "amigo_p1p6": "",
-      "amigo_p7": "",
-      "upgrade": "kwi",
-      "note": "",
-      "sections": {
-        "specChange": [
-          {
-            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
-          }
-        ],
-        "iAutoBug": [],
-        "jiraBug": [],
-        "others": [
+          },
           {
             "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
           }
@@ -5856,6 +5845,39 @@
       "note": "",
       "sections": {
         "specChange": [],
+        "iAutoBug": [
+          {
+            "desc": "When the Android device name is set in English, the device name is truncated when the AAP Device Choose message is displayed."
+          }
+        ],
+        "jiraBug": [],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-09-03",
+      "soc": "12.021400",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.29",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+          },
+          {
+            "desc": "[TDEM25-1220]Air Con animation change"
+          },
+          {
+            "desc": "[TDEM25-1170][25TMA] Study reduce Gyro manual inspection"
+          }
+        ],
         "iAutoBug": [],
         "jiraBug": [],
         "others": []
