@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26 11:30:08",
+  "generated": "2026-08-27 11:49:18",
   "weeks": [
     {
       "version": "14inch",
@@ -5789,7 +5789,7 @@
       "version": "14inch",
       "date": "2026-09-11",
       "soc": "14.100000",
-      "mcu_large": "45.61",
+      "mcu_large": "45.62",
       "mcu_small": "45.44",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
@@ -5817,7 +5817,7 @@
         ],
         "iAutoBug": [
           {
-            "desc": "When the Android device name(ggg) is set in English, the device name is truncated when the AAP Device Choose message is displayed."
+            "desc": "When the Android device name(ggg) is set in English, the device name is cut when the AAP Device Choose message is displayed."
           }
         ],
         "jiraBug": [],
@@ -5833,34 +5833,11 @@
     },
     {
       "version": "12inch",
-      "date": "2026-08-27",
+      "date": "2026-09-03",
       "soc": "12.021300",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12.29",
-      "amigo": "",
-      "amigo_p1p6": "PG80220801 DATA80220080",
-      "amigo_p7": "PG80230401 DATA80230040",
-      "upgrade": "kwi",
-      "note": "",
-      "sections": {
-        "specChange": [],
-        "iAutoBug": [
-          {
-            "desc": "When the Android device name(ggg) is set in English, the device name is truncated when the AAP Device Choose message is displayed."
-          }
-        ],
-        "jiraBug": [],
-        "others": []
-      }
-    },
-    {
-      "version": "12inch",
-      "date": "2026-09-03",
-      "soc": "12.021400",
-      "mcu_large": "",
-      "mcu_small": "",
-      "mcu": "12.29",
+      "mcu": "12.30",
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
@@ -5878,8 +5855,19 @@
             "desc": "[TDEM25-1170][25TMA] Study reduce Gyro manual inspection"
           }
         ],
-        "iAutoBug": [],
-        "jiraBug": [],
+        "iAutoBug": [
+          {
+            "desc": "When the Android device name(ggg) is set in English, the device name is cut when the AAP Device Choose message is displayed."
+          }
+        ],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-171](Multiple Announcements)TS-TA interrupts from the middle after the OS-Alarm ends"
+          },
+          {
+            "desc": "[DDAB-176]In DAB Mode, TP Indication for alternative FM station"
+          }
+        ],
         "others": []
       }
     }
