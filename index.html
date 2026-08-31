@@ -580,9 +580,7 @@
             else { mcu = w.mcu || ""; }
             var amigo = (w.version === "12inch") ? [w.amigo_p1p6,w.amigo_p7].filter(Boolean).join(" / ") : (w.amigo||"");
             found.push({ver:(w.version||""), date:(w.date||""), amigo:amigo,
-                        upgrade:(w.upgrade||""), soc:(w.soc||""), mcu:mcu, sec:sec.label, text:it.desc,
-                        mcu_large:(w.mcu_large||""), mcu_small:(w.mcu_small||""),
-                        amigo_p1p6:(w.amigo_p1p6||""), amigo_p7:(w.amigo_p7||"")});
+                        upgrade:(w.upgrade||""), soc:(w.soc||""), mcu:mcu, sec:sec.label, text:it.desc});
           }
         });
       });
@@ -593,25 +591,16 @@
     if(!found.length){ html += '<div class="empty-note">No matching content.</div>'; }
     else {
       found.forEach(function(r){
-        var descHtml = '<div class="sr-desc"><div class="t">'+esc(r.text)+'</div>';
-        descHtml += '<div class="sr-stack">'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">Date</span><span class="sr-stack-item-val">'+esc(r.date||"—")+'</span></div>';
-        if(r.ver === "14inch"){
-          // 14inch：标签-值成对横排，字段间用 ｜ 分隔
-          descHtml += '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ SOC</span><span class="sr-stack-item-val">'+esc(r.soc||"—")+'</span></div>'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ Main MCU</span><span class="sr-stack-item-val">'+esc(r.mcu_large||"—")+'</span></div>'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ Sub MCU</span><span class="sr-stack-item-val">'+esc(r.mcu_small||"—")+'</span></div>'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ Amigo</span><span class="sr-stack-item-val">'+esc(r.amigo||"—")+'</span></div>';
-        } else {
-          descHtml += '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ SOC</span><span class="sr-stack-item-val">'+esc(r.soc||"—")+'</span></div>'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ MCU</span><span class="sr-stack-item-val">'+esc(r.mcu||"—")+'</span></div>'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ Amigo(P1~P6)</span><span class="sr-stack-item-val">'+esc(r.amigo_p1p6||"—")+'</span></div>'
-            + '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ Amigo(P7)</span><span class="sr-stack-item-val">'+esc(r.amigo_p7||"—")+'</span></div>';
-        }
-        descHtml += '<div class="sr-stack-item"><span class="sr-stack-item-label">｜ '+esc(r.sec)+'</span></div>'
-            + '</div>';
-        html += '<div class="sr-item"><span class="sr-tag">'+esc(r.ver)+'</span>'
-              + descHtml + '</div>';
+        // 与 Version 直达结果排版一致：字段用 sr-meta 横排（标签-值成对，｜ 分隔）
+        html += '<div class="sr-item" style="cursor:pointer" onclick="jumpTo(\''+r.date+'\',\''+r.ver+'\')">'
+              + '<span class="sr-tag">'+esc(r.ver)+'</span>'
+              + '<div class="sr-desc"><div class="t"><b>'+esc(r.text)+'</b></div>'
+              + '<div class="sr-meta"><span>Date <b>'+esc(r.date||"—")+'</b></span>'
+              + '<span>｜ Amigo <b>'+esc(r.amigo||"—")+'</b></span>'
+              + '<span>｜ SOC <b>'+esc(r.soc||"—")+'</b></span>'
+              + '<span>｜ MCU <b>'+esc(r.mcu||"—")+'</b></span>'
+              + '<span>｜ Upgrade <b>'+esc(r.upgrade||"—")+'</b></span></div>'
+              + '</div></div>';
       });
     }
     res.innerHTML = html;
