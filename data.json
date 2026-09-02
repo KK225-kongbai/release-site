@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27 11:49:18",
+  "generated": "2026-09-02 19:48:23",
   "weeks": [
     {
       "version": "14inch",
@@ -5800,7 +5800,7 @@
       "sections": {
         "specChange": [
           {
-            "desc": "Improvement 2D/3D Car model"
+            "desc": "[TDEM25-1223][25TMA]14inch existing 2D/3D improvement"
           },
           {
             "desc": "Add one new 3D&2D color(Ash/Black)"
@@ -5812,7 +5812,10 @@
             "desc": "[TDEM25-1220]Air Con animation change"
           },
           {
-            "desc": "[TDEM25-1170][25TMA] Study reduce Gyro manual inspection"
+            "desc": "[TDEM25-1170][25TMA]Study reduce Gyro manual inspection"
+          },
+          {
+            "desc": "[TDEM25-270]VR Guide comment change_20260828"
           }
         ],
         "iAutoBug": [
@@ -5820,13 +5823,20 @@
             "desc": "When the Android device name(ggg) is set in English, the device name is cut when the AAP Device Choose message is displayed."
           }
         ],
-        "jiraBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-315][25TMA][Random][VR Command Flow]HU does not talk back when no source is available with VR language is Thai_TTS(VN)_20260831"
+          }
+        ],
         "others": [
           {
             "desc": "Disable Serial Log"
           },
           {
             "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
+          },
+          {
+            "desc": "ACC OFF process time improvement"
           }
         ]
       }
@@ -5844,17 +5854,7 @@
       "upgrade": "kwi",
       "note": "",
       "sections": {
-        "specChange": [
-          {
-            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
-          },
-          {
-            "desc": "[TDEM25-1220]Air Con animation change"
-          },
-          {
-            "desc": "[TDEM25-1170][25TMA] Study reduce Gyro manual inspection"
-          }
-        ],
+        "specChange": [],
         "iAutoBug": [
           {
             "desc": "When the Android device name(ggg) is set in English, the device name is cut when the AAP Device Choose message is displayed."
@@ -5862,13 +5862,70 @@
         ],
         "jiraBug": [
           {
-            "desc": "[DDAB-171](Multiple Announcements)TS-TA interrupts from the middle after the OS-Alarm ends"
-          },
-          {
             "desc": "[DDAB-176]In DAB Mode, TP Indication for alternative FM station"
           }
         ],
+        "others": [
+          {
+            "desc": "[TDEM25-1227][25TMA] 12.9inch vehicle parameter for Guideline"
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-08-27",
+      "soc": "12.021200",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.29",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [],
         "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-09-10",
+      "soc": "12.021200",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.29",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1170][25TMA]Study reduce Gyro manual inspection"
+          },
+          {
+            "desc": "[TDEM25-1220]Air Con animation change"
+          },
+          {
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-171](Multiple Announcements)TS-TA interrupts from the middle after the OS-Alarm ends"
+          }
+        ],
+        "others": [
+          {
+            "desc": "ACC OFF process time improvement"
+          }
+        ]
       }
     }
   ]
