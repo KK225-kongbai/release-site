@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 16:18:57",
+  "generated": "2026-09-03 16:53:48",
   "weeks": [
     {
       "version": "14inch",
@@ -5874,6 +5874,9 @@
         "others": [
           {
             "desc": "[TDEM25-1227][25TMA] 12.9inch vehicle parameter for Guideline"
+          },
+          {
+            "desc": "Update Remote Control App: AAP(Ver 1.2.3.15) ; iOS(Ver1.5.2(3))"
           }
         ]
       }
