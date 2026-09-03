@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 16:12:12",
+  "generated": "2026-09-03 16:18:57",
   "weeks": [
     {
       "version": "14inch",
@@ -5900,10 +5900,10 @@
     {
       "version": "12inch",
       "date": "2026-09-10",
-      "soc": "12.021200",
+      "soc": "12.021400",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12.29",
+      "mcu": "12.30",
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
