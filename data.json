@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02 19:48:23",
+  "generated": "2026-09-03 16:12:12",
   "weeks": [
     {
       "version": "14inch",
@@ -5826,6 +5826,15 @@
         "jiraBug": [
           {
             "desc": "[TMAB25-315][25TMA][Random][VR Command Flow]HU does not talk back when no source is available with VR language is Thai_TTS(VN)_20260831"
+          },
+          {
+            "desc": "[TMAB25-410][25TMA][12.9inch][Random][CarPlay] Sometimes Split2 and BottomMenu is disappeared when double tap [Resize] icon"
+          },
+          {
+            "desc": "[TMAB25-411][25TMA][12.9inch][Random][Miracast] Device 2 automatically connect Carplay when the HU is connected to Miracast"
+          },
+          {
+            "desc": "[TMAB25-412][25TMA] DTC error U016387_ACC OFF process time improvement"
           }
         ],
         "others": [
@@ -5834,9 +5843,6 @@
           },
           {
             "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
-          },
-          {
-            "desc": "ACC OFF process time improvement"
           }
         ]
       }
@@ -5919,13 +5925,18 @@
         "jiraBug": [
           {
             "desc": "[DDAB-171](Multiple Announcements)TS-TA interrupts from the middle after the OS-Alarm ends"
+          },
+          {
+            "desc": "[TMAB25-410][25TMA][12.9inch][Random][CarPlay] Sometimes Split2 and BottomMenu is disappeared when double tap [Resize] icon"
+          },
+          {
+            "desc": "[TMAB25-411][25TMA][12.9inch][Random][Miracast] Device 2 automatically connect Carplay when the HU is connected to Miracast"
+          },
+          {
+            "desc": "[TMAB25-412][25TMA] DTC error U016387_ACC OFF process time improvement"
           }
         ],
-        "others": [
-          {
-            "desc": "ACC OFF process time improvement"
-          }
-        ]
+        "others": []
       }
     }
   ]
