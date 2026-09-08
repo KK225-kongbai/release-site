@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 10:41:11",
+  "generated": "2026-09-08 14:54:49",
   "weeks": [
     {
       "version": "14inch",
@@ -5852,9 +5852,6 @@
           },
           {
             "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
-          },
-          {
-            "desc": "SDK VR_20260904"
           },
           {
             "desc": "Camera mipi detection improvement"
