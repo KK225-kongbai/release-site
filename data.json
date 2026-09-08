@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 16:53:48",
+  "generated": "2026-09-08 10:41:11",
   "weeks": [
     {
       "version": "14inch",
@@ -5788,34 +5788,34 @@
     {
       "version": "14inch",
       "date": "2026-09-11",
-      "soc": "14.100000",
-      "mcu_large": "45.62",
+      "soc": "14.041000",
+      "mcu_large": "45.63",
       "mcu_small": "45.44",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
       "amigo_p1p6": "",
       "amigo_p7": "",
-      "upgrade": "image",
-      "note": "14inch MP RC Release(ROM & USB & Wite into Board)",
+      "upgrade": "kwi",
+      "note": "",
       "sections": {
         "specChange": [
           {
             "desc": "[TDEM25-1223][25TMA]14inch existing 2D/3D improvement"
           },
           {
-            "desc": "Add one new 3D&2D color(Ash/Black)"
-          },
-          {
-            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
-          },
-          {
-            "desc": "[TDEM25-1220]Air Con animation change"
+            "desc": "Add one new 3D&2D color(Ash/Black)&PVM sync new color"
           },
           {
             "desc": "[TDEM25-1170][25TMA]Study reduce Gyro manual inspection"
           },
           {
             "desc": "[TDEM25-270]VR Guide comment change_20260828"
+          },
+          {
+            "desc": "String ID_20260907"
+          },
+          {
+            "desc": "Change the Red/Bronze/Red&Black 3D Car color"
           }
         ],
         "iAutoBug": [
@@ -5834,7 +5834,16 @@
             "desc": "[TMAB25-411][25TMA][12.9inch][Random][Miracast] Device 2 automatically connect Carplay when the HU is connected to Miracast"
           },
           {
-            "desc": "[TMAB25-412][25TMA] DTC error U016387_ACC OFF process time improvement"
+            "desc": "[TMAB25-412][25TMA]DTC error U016387_ACC OFF process time improvement"
+          },
+          {
+            "desc": "[TDEM25-1205][12.9 inch][AAP]Design Assessment QA"
+          },
+          {
+            "desc": "[TDEM25-1217][25TMA] Split Screen → PVM → Exit PVM page, the menu bar appears last"
+          },
+          {
+            "desc": "[TMAB25-408][25TMA][12.9inch][Random][EventSurprise] Button Cancel in MB_09_08_01_02 popup EventSurprise delete Message is dimmed when reconnecting the wired Weblink"
           }
         ],
         "others": [
@@ -5843,6 +5852,12 @@
           },
           {
             "desc": "Integrate the AVC LAN(20260821) for JBL AMP error pop up"
+          },
+          {
+            "desc": "SDK VR_20260904"
+          },
+          {
+            "desc": "Camera mipi detection improvement"
           }
         ]
       }
@@ -5906,7 +5921,7 @@
       "soc": "12.021400",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12.30",
+      "mcu": "12.31",
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
@@ -5918,10 +5933,7 @@
             "desc": "[TDEM25-1170][25TMA]Study reduce Gyro manual inspection"
           },
           {
-            "desc": "[TDEM25-1220]Air Con animation change"
-          },
-          {
-            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+            "desc": "String ID_20260907"
           }
         ],
         "iAutoBug": [],
@@ -5936,7 +5948,120 @@
             "desc": "[TMAB25-411][25TMA][12.9inch][Random][Miracast] Device 2 automatically connect Carplay when the HU is connected to Miracast"
           },
           {
-            "desc": "[TMAB25-412][25TMA] DTC error U016387_ACC OFF process time improvement"
+            "desc": "[TMAB25-412][25TMA]DTC error U016387_ACC OFF process time improvement"
+          },
+          {
+            "desc": "[TDEM25-1205][12.9 inch][AAP]Design Assessment QA"
+          },
+          {
+            "desc": "[TDEM25-1217][25TMA]Split Screen → PVM → Exit PVM page, the menu bar appears last"
+          },
+          {
+            "desc": "[TMAB25-408][25TMA][12.9inch][Random][EventSurprise] Button Cancel in MB_09_08_01_02 popup EventSurprise delete Message is dimmed when reconnecting the wired Weblink"
+          },
+          {
+            "desc": "[DDAB-181][STL update] Abnormal STL update when selecting non-receivable service from FAV list"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Implement HW APP NOTE(PARTS-26_Thermal (TFT) control_V0.24)"
+          },
+          {
+            "desc": "Implement HW APP NOTE(PARTS-21_Image_Quality_User_Adj_ver0.26)"
+          },
+          {
+            "desc": "Implement HW APP NOTE(SOC-06_VideoOut_ver0.23)"
+          },
+          {
+            "desc": "Camera mipi detection improvement"
+          }
+        ]
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-08-27",
+      "soc": "14.040900",
+      "mcu_large": "45.61",
+      "mcu_small": "45.43",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "image",
+      "note": "",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": []
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-09-15",
+      "soc": "14.100000",
+      "mcu_large": "45.63",
+      "mcu_small": "45.44",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "ROM+IMAGE",
+      "note": "14inch MP Real Release(ROM & USB & Wite into Board)",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+          },
+          {
+            "desc": "[TDEM25-1220]Air Con animation change"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-413][25TMA][12.9inch][Random][Miracast] The popup MB_00_11_20 does not disappear when unplug device (connected Weblink while popup MB_03_02_01_02_01 Connecting Device displayed)"
+          },
+          {
+            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-09-17",
+      "soc": "12.021500",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.31",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "ROM",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1220]Air Con animation change"
+          },
+          {
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+          },
+          {
+            "desc": "[TDEM25-1230][25TMA][12.9inch] Cropping parameter"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-413][25TMA][12.9inch][Random][Miracast] The popup MB_00_11_20 does not disappear when unplug device (connected Weblink while popup MB_03_02_01_02_01 Connecting Device displayed)"
+          },
+          {
+            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
           }
         ],
         "others": []
