@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08 14:54:49",
+  "generated": "2026-09-14 09:52:41",
   "weeks": [
     {
       "version": "14inch",
@@ -5803,7 +5803,7 @@
             "desc": "[TDEM25-1223][25TMA]14inch existing 2D/3D improvement"
           },
           {
-            "desc": "Add one new 3D&2D color(Ash/Black)&PVM sync new color"
+            "desc": "[TDEM25-1223]Add one new 3D&2D color(Ash/Black)&PVM sync new color"
           },
           {
             "desc": "[TDEM25-1170][25TMA]Study reduce Gyro manual inspection"
@@ -5815,7 +5815,7 @@
             "desc": "String ID_20260907"
           },
           {
-            "desc": "Change the Red/Bronze/Red&Black 3D Car color"
+            "desc": "Change the Red/Bronze/Red&Black 3D&2D Car color"
           }
         ],
         "iAutoBug": [
@@ -5834,7 +5834,7 @@
             "desc": "[TMAB25-411][25TMA][12.9inch][Random][Miracast] Device 2 automatically connect Carplay when the HU is connected to Miracast"
           },
           {
-            "desc": "[TMAB25-412][25TMA]DTC error U016387_ACC OFF process time improvement"
+            "desc": "[TMAB25-412][25TMA]DTC error U016387_ACC OFF process time improvement_MediaServer&Touch"
           },
           {
             "desc": "[TDEM25-1205][12.9 inch][AAP]Design Assessment QA"
@@ -5844,6 +5844,12 @@
           },
           {
             "desc": "[TMAB25-408][25TMA][12.9inch][Random][EventSurprise] Button Cancel in MB_09_08_01_02 popup EventSurprise delete Message is dimmed when reconnecting the wired Weblink"
+          },
+          {
+            "desc": "[TMAB25-391][25TMA][switching connection] BTA and BTHF show abnormal behaviours"
+          },
+          {
+            "desc": "[TMAB25-413][25TMA][12.9inch][Random][Miracast] The popup MB_00_11_20 does not disappear when unplug device (connected Weblink while popup MB_03_02_01_02_01 Connecting Device displayed)"
           }
         ],
         "others": [
@@ -5855,6 +5861,9 @@
           },
           {
             "desc": "Camera mipi detection improvement"
+          },
+          {
+            "desc": "Update Remote Control App: AAP(Ver 1.2.3.15) ; iOS(Ver1.5.2(3))"
           }
         ]
       }
@@ -5945,7 +5954,7 @@
             "desc": "[TMAB25-411][25TMA][12.9inch][Random][Miracast] Device 2 automatically connect Carplay when the HU is connected to Miracast"
           },
           {
-            "desc": "[TMAB25-412][25TMA]DTC error U016387_ACC OFF process time improvement"
+            "desc": "[TMAB25-412][25TMA]DTC error U016387_ACC OFF process time improvement_MediaServer&Touch"
           },
           {
             "desc": "[TDEM25-1205][12.9 inch][AAP]Design Assessment QA"
@@ -5958,6 +5967,18 @@
           },
           {
             "desc": "[DDAB-181][STL update] Abnormal STL update when selecting non-receivable service from FAV list"
+          },
+          {
+            "desc": "[DDAB-160][issue] Servicelist displays a blank highlighted station after selecting from Favorite list"
+          },
+          {
+            "desc": "[TDEM25-1233][12.9inch][CP] 1st Audit Result"
+          },
+          {
+            "desc": "[TMAB25-391][25TMA][switching connection] BTA and BTHF show abnormal behaviours"
+          },
+          {
+            "desc": "[TMAB25-413][25TMA][12.9inch][Random][Miracast] The popup MB_00_11_20 does not disappear when unplug device (connected Weblink while popup MB_03_02_01_02_01 Connecting Device displayed)"
           }
         ],
         "others": [
@@ -6019,10 +6040,10 @@
         "iAutoBug": [],
         "jiraBug": [
           {
-            "desc": "[TMAB25-413][25TMA][12.9inch][Random][Miracast] The popup MB_00_11_20 does not disappear when unplug device (connected Weblink while popup MB_03_02_01_02_01 Connecting Device displayed)"
+            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
           },
           {
-            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
+            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time."
           }
         ],
         "others": []
@@ -6055,10 +6076,10 @@
         "iAutoBug": [],
         "jiraBug": [
           {
-            "desc": "[TMAB25-413][25TMA][12.9inch][Random][Miracast] The popup MB_00_11_20 does not disappear when unplug device (connected Weblink while popup MB_03_02_01_02_01 Connecting Device displayed)"
+            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
           },
           {
-            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
+            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time.\n"
           }
         ],
         "others": []
