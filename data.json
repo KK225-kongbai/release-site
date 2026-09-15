@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 09:52:41",
+  "generated": "2026-09-15 10:03:16",
   "weeks": [
     {
       "version": "14inch",
@@ -6031,7 +6031,7 @@
       "sections": {
         "specChange": [
           {
-            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case of blow direction “F/D”"
           },
           {
             "desc": "[TDEM25-1220]Air Con animation change"
@@ -6040,10 +6040,10 @@
         "iAutoBug": [],
         "jiraBug": [
           {
-            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
+            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time."
           },
           {
-            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time."
+            "desc": "[TMAB25-418][25TMA][12.9inch][Operation][VehicleInfor] The current distance value is displayed not correct max value"
           }
         ],
         "others": []
@@ -6059,7 +6059,7 @@
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
-      "upgrade": "ROM",
+      "upgrade": "kwi",
       "note": "",
       "sections": {
         "specChange": [
@@ -6067,22 +6067,58 @@
             "desc": "[TDEM25-1220]Air Con animation change"
           },
           {
-            "desc": "[TDEM25-1220]Add Fan animation left and right in case blow direction “F/D”"
+            "desc": "[TDEM25-1220]Add Fan animation left and right in case of blow direction “F/D”"
           },
           {
-            "desc": "[TDEM25-1230][25TMA][12.9inch] Cropping parameter"
+            "desc": "[TDEM25-1230][25TMA][12.9inch]Cropping parameter_20260910"
+          },
+          {
+            "desc": "[TDEM25-1230][25TMA][12.9inch]Adjustment ROI arae size of Hliux"
+          },
+          {
+            "desc": "Implement the latest 3D car model"
           }
         ],
         "iAutoBug": [],
         "jiraBug": [
           {
-            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed."
+            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time.\n"
           },
           {
-            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time.\n"
+            "desc": "[TMAB25-418][25TMA][12.9inch][Operation][VehicleInfor] The current distance value is displayed not correct max value\n"
           }
         ],
         "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-09-24",
+      "soc": "12.021600",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.31",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "Update the 3D car model of roll and pitch"
+          },
+          {
+            "desc": "Implement the latest 2D car model"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [],
+        "others": [
+          {
+            "desc": "Integrate the DAB SDK()"
+          }
+        ]
       }
     }
   ]
