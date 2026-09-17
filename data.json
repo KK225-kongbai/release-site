@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15 10:03:16",
+  "generated": "2026-09-17 11:28:35",
   "weeks": [
     {
       "version": "14inch",
@@ -6020,7 +6020,7 @@
       "version": "14inch",
       "date": "2026-09-15",
       "soc": "14.100000",
-      "mcu_large": "45.63",
+      "mcu_large": "45.64",
       "mcu_small": "45.44",
       "mcu": "",
       "amigo": "PG80220801 DATA80220080",
@@ -6035,6 +6035,9 @@
           },
           {
             "desc": "[TDEM25-1220]Air Con animation change"
+          },
+          {
+            "desc": "[TMAB25-412]MCU 2s Shutdown"
           }
         ],
         "iAutoBug": [],
@@ -6064,9 +6067,6 @@
       "sections": {
         "specChange": [
           {
-            "desc": "[TDEM25-1220]Air Con animation change"
-          },
-          {
             "desc": "[TDEM25-1220]Add Fan animation left and right in case of blow direction “F/D”"
           },
           {
@@ -6077,6 +6077,9 @@
           },
           {
             "desc": "Implement the latest 3D car model"
+          },
+          {
+            "desc": "[TMAB25-412]MCU 2s Shutdown"
           }
         ],
         "iAutoBug": [],
@@ -6086,6 +6089,9 @@
           },
           {
             "desc": "[TMAB25-418][25TMA][12.9inch][Operation][VehicleInfor] The current distance value is displayed not correct max value\n"
+          },
+          {
+            "desc": "[TMAB25-421][25TMA][12.9inch][Random][Wi-Fi] PIN Input Configuration for the Wi-Fi Password is not fully displayed."
           }
         ],
         "others": []
@@ -6097,7 +6103,7 @@
       "soc": "12.021600",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12.31",
+      "mcu": "12.32",
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
@@ -6113,10 +6119,14 @@
           }
         ],
         "iAutoBug": [],
-        "jiraBug": [],
+        "jiraBug": [
+          {
+            "desc": "[DDAB-179]Incorrect display of Arabic Service and Ensemble names when the text is too long."
+          }
+        ],
         "others": [
           {
-            "desc": "Integrate the DAB SDK()"
+            "desc": "[DDAB-146]Integrate the DAB SDK()"
           }
         ]
       }
