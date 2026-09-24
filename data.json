@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17 11:28:35",
+  "generated": "2026-09-24 14:58:34",
   "weeks": [
     {
       "version": "14inch",
@@ -6058,7 +6058,7 @@
       "soc": "12.021500",
       "mcu_large": "",
       "mcu_small": "",
-      "mcu": "12.31",
+      "mcu": "12.32",
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
@@ -6085,10 +6085,10 @@
         "iAutoBug": [],
         "jiraBug": [
           {
-            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time.\n"
+            "desc": "[TMAB25-415][25TMA][12.9inch][Random][CarPlay] The WebLink icon is highlighted when the CarPlay wired connection is successfully established for the first time."
           },
           {
-            "desc": "[TMAB25-418][25TMA][12.9inch][Operation][VehicleInfor] The current distance value is displayed not correct max value\n"
+            "desc": "[TMAB25-418][25TMA][12.9inch][Operation][VehicleInfor] The current distance value is displayed not correct max value"
           },
           {
             "desc": "[TMAB25-421][25TMA][12.9inch][Random][Wi-Fi] PIN Input Configuration for the Wi-Fi Password is not fully displayed."
@@ -6107,28 +6107,93 @@
       "amigo": "",
       "amigo_p1p6": "PG80220801 DATA80220080",
       "amigo_p7": "PG80230401 DATA80230040",
-      "upgrade": "kwi",
-      "note": "",
+      "upgrade": "ROM+IMAGE",
+      "note": "FSP Milestone",
       "sections": {
         "specChange": [
           {
-            "desc": "Update the 3D car model of roll and pitch"
+            "desc": "Update the 3D car model of roll and pitch(Expect camera)"
           },
           {
-            "desc": "Implement the latest 2D car model"
+            "desc": "Implement the latest 2D car model(Expect 2D)"
+          },
+          {
+            "desc": "Change the Red color of 3D car"
           }
         ],
         "iAutoBug": [],
         "jiraBug": [
           {
             "desc": "[DDAB-179]Incorrect display of Arabic Service and Ensemble names when the text is too long."
+          },
+          {
+            "desc": "[DDAB-187]Usage of TUNSDK_DabSelectAnnoAction interface to cancel an announcement."
+          },
+          {
+            "desc": "[TMAB25-417][25TMA][12.9inch][Random][Wording] The text in Arabic is not fully displayed on MM_04_01_01_1_1_P1_1_3 Main Micon Update"
+          },
+          {
+            "desc": "[TMAB25-425][25TMA][12.9inch][Random][Interrupt] The popup MB_00_11_21 Android App Select message does not disappear when unplug device"
           }
         ],
         "others": [
           {
-            "desc": "[DDAB-146]Integrate the DAB SDK()"
+            "desc": "[DDAB-146]Integrate the DAB SDK(TOY05_TUNSDK_001.001.R09)"
           }
         ]
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-09-18",
+      "soc": "14.100000",
+      "mcu_large": "45.64",
+      "mcu_small": "45.44",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "ROM+IMAGE",
+      "note": "Due to the air con animation not smooth issue, the PASAP request iAuto redo, and use original image(200MB)",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TDEM25-1220]Fixed the air con animation not smooth(Use original image: About 200MB)"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-09-30",
+      "soc": "12.021700",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.32",
+      "amigo": "",
+      "amigo_p1p6": "PG80220801 DATA80220080",
+      "amigo_p7": "PG80230401 DATA80230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1246][25TMA][HMI][12.9]Add new color of 3D car(Ask/Black)"
+          },
+          {
+            "desc": "Change the red color of the 2D car model"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-425][25TMA][12.9inch][Random][Interrupt] The popup MB_00_11_21 Android App Select message does not disappear when unplug device\n"
+          }
+        ],
+        "others": []
       }
     }
   ]
