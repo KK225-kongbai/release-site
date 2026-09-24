@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24 14:58:34",
+  "generated": "2026-09-24 17:21:55",
   "weeks": [
     {
       "version": "14inch",
@@ -6112,10 +6112,10 @@
       "sections": {
         "specChange": [
           {
-            "desc": "Update the 3D car model of roll and pitch(Expect camera)"
+            "desc": "Update the 3D car model of roll and pitch(Except camera)"
           },
           {
-            "desc": "Implement the latest 2D car model(Expect 2D)"
+            "desc": "Implement the latest 2D car model(Except Red)"
           },
           {
             "desc": "Change the Red color of 3D car"
@@ -6139,6 +6139,9 @@
         "others": [
           {
             "desc": "[DDAB-146]Integrate the DAB SDK(TOY05_TUNSDK_001.001.R09)"
+          },
+          {
+            "desc": "Change to use original frame image for air con animation"
           }
         ]
       }
@@ -6191,6 +6194,29 @@
         "jiraBug": [
           {
             "desc": "[TMAB25-425][25TMA][12.9inch][Random][Interrupt] The popup MB_00_11_21 Android App Select message does not disappear when unplug device\n"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "version": "14inch",
+      "date": "2026-10-30",
+      "soc": "14.100100",
+      "mcu_large": "45.64",
+      "mcu_small": "45.44",
+      "mcu": "",
+      "amigo": "PG80220801 DATA80220080",
+      "amigo_p1p6": "",
+      "amigo_p7": "",
+      "upgrade": "ROM+IMAGE",
+      "note": "",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-425][25TMA][12.9inch][Random][Interrupt] The popup MB_00_11_21 Android App Select message does not disappear when unplug device"
           }
         ],
         "others": []
