@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24 17:21:55",
+  "generated": "2026-10-15 11:00:04",
   "weeks": [
     {
       "version": "14inch",
@@ -6191,11 +6191,7 @@
           }
         ],
         "iAutoBug": [],
-        "jiraBug": [
-          {
-            "desc": "[TMAB25-425][25TMA][12.9inch][Random][Interrupt] The popup MB_00_11_21 Android App Select message does not disappear when unplug device\n"
-          }
-        ],
+        "jiraBug": [],
         "others": []
       }
     },
@@ -6220,6 +6216,46 @@
           }
         ],
         "others": []
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-10-15",
+      "soc": "12.021800",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.32",
+      "amigo": "",
+      "amigo_p1p6": "PG8F220801  DATA8F220080",
+      "amigo_p7": "PG8F230401 DATA8F230040",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [
+          {
+            "desc": "[TDEM25-1252][25TMA][HMI][12.9inch]Update car pickup model on vehicle info"
+          }
+        ],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TMAB25-414][25TMA][12.9inch][Random][Miracast] Does not go to the AA screen when tapping “OK” on the popup MB_00_11_16 while the MB_03_02_01_02_01 Connecting Device popup is displayed.    *Spec update"
+          },
+          {
+            "desc": "[TDEM25-1257][25T1A][14inch][Voltage Fluctuation] BT setting OFF"
+          },
+          {
+            "desc": "[DDAB-186][Question] Regarding Learn Memory Retention\n"
+          }
+        ],
+        "others": [
+          {
+            "desc": "[TDEM25-1268][25TMA 12.9 inch] Amigo release for DAB and non-DAB destination"
+          },
+          {
+            "desc": "Integrated the PGL parameters for Hilux from EL."
+          }
+        ]
       }
     }
   ]
