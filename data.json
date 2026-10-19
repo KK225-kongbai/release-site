@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15 11:00:04",
+  "generated": "2026-10-19 14:38:02",
   "weeks": [
     {
       "version": "14inch",
@@ -6254,6 +6254,33 @@
           },
           {
             "desc": "Integrated the PGL parameters for Hilux from EL."
+          }
+        ]
+      }
+    },
+    {
+      "version": "12inch",
+      "date": "2026-10-21",
+      "soc": "12.021900",
+      "mcu_large": "",
+      "mcu_small": "",
+      "mcu": "12.32",
+      "amigo": "",
+      "amigo_p1p6": "PG8F220801  DATA8F220080",
+      "amigo_p7": "PG80230501 DATA80230050",
+      "upgrade": "kwi",
+      "note": "",
+      "sections": {
+        "specChange": [],
+        "iAutoBug": [],
+        "jiraBug": [
+          {
+            "desc": "[TDEM25-1275][25TMA][12.9inch]Update String"
+          }
+        ],
+        "others": [
+          {
+            "desc": "Amigo （P7）PG80230501 DATA80230050"
           }
         ]
       }
